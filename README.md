@@ -1,2 +1,2 @@
 # programacion-clase
-Mis proyectos
+Mis proyectos realizados en clase
