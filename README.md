@@ -1,2 +1,2 @@
-# programacion-clase
-Mis proyectos realizados en clase
+# Programacion clase
+Mis proyectos realizados de las clases de SENATI.
