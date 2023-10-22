@@ -63,10 +63,10 @@ CREATE TABLE Proveedores (
     Email VARCHAR(100)
 );
 
-CREATE TABLE Usuarios (
+CREATE TABLE usuarios (
     UsuarioID INT AUTO_INCREMENT PRIMARY KEY,
     ClienteID INT,
-    NombreUsuario VARCHAR(50) NOT NULL,
-    Contraseña VARCHAR(255) NOT NULL,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
     FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID)
 );
