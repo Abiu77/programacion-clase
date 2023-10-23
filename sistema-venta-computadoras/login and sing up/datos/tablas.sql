@@ -70,3 +70,10 @@ CREATE TABLE usuarios (
     password VARCHAR(255) NOT NULL,
     FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID)
 );
+
+CREATE TABLE registros(
+    registrosID INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR (50),
+    Email VARCHAR(40),
+    contrasena VARBINARY(50)
+)

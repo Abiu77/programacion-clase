@@ -27,11 +27,11 @@ body {
 .information {
     width: 95%;
     height: 20%;
-    background-color: #cfff00;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 300px 80px 0px;
+    margin: 0px 80px 0px;
 }
 
 .info-childs {

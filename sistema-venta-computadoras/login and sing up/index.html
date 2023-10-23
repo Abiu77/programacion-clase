@@ -20,7 +20,7 @@
             <div class="info-childs">
                 <h2 class="welcome">Bienvenidos</h2>
                 <p>Para unirte por favor ingresa tus datos</p>
-                <input type="button" value="Iniciar seción" id="sign-in">
+                <input type="button" value="Iniciar sesión" id="sign-in">
             </div>
         </div>
         <div class="form-informacion">
@@ -39,19 +39,21 @@
                     </a>
                 </div>
                 <p>o usa tu gmail para registrate</p>
-                <form class="form">
+                <form class="form" action="datos/registro_usuario.php" method="POST">
                     <label>
                         <i class='bx bx-user'></i>
-                        <input type="text" placeholder="Nombre Completo">
+                        <input type="text" placeholder="Nombre Completo" name="nombre_completo">
                     </label>
                     <label>
                         <i class='bx bx-envelope'></i>
-                        <input type="email" placeholder="Correo Electronico">
+                        <input type="email" placeholder="Correo Electronico" name="email">
                     </label>
                     <label>
                         <i class='bx bx-lock-alt'></i>
-                        <input type="password" placeholder="Contraseña">
-                        <input type="submit" value="registrarse">
+                        <input type="password" placeholder="Contraseña" name="contrasena">
+                    </label>
+                    <label style="padding: 0px; border: 2px solid #333;">
+                        <input style="font-weight: bold; background-color: rgb(229, 255, 0); cursor: pointer;" type="submit" value="registrarse">
                     </label>
                 </form>
             </div>
@@ -68,7 +70,7 @@
         </div>
         <div class="form-informacion">
             <div class="form-information-childs">
-                <h2>Iniciar secion</h2>
+                <h2>Iniciar sesion</h2>
                 <div class="icons">
                     <a href="https://youtu.be/IcSnM8eBgUg?t=19" target="_blank" title="Ver video de YouTube">
                         <i class='bx bxl-google' id="google-icon"></i>
@@ -82,15 +84,17 @@
                     </a>
                 </div>
                 <p>o usa tu gmail para registrate</p>
-                <form class="form">
+                <form class="form" action="datos/login_usuario.php" method="POST">
                     <label>
                         <i class='bx bx-envelope'></i>
-                        <input type="email" placeholder="Correo Electronico">
+                        <input type="email" placeholder="Correo Electronico" name="email">
                     </label>
                     <label>
                         <i class='bx bx-lock-alt'></i>
-                        <input type="password" placeholder="Contraseña">
-                        <input src="wl" type="submit" value="Iniciar Sesion">
+                        <input type="password" placeholder="Contraseña" name="contrasena">
+                    </label>
+                    <label style="padding: 0px; border: 2px solid #333;">
+                        <input src="wl" type="submit" style="font-weight: bold; background-color: rgb(251, 255, 0);cursor: pointer;" value="Iniciar Sesion">
                     </label>
                 </form>
             </div>
