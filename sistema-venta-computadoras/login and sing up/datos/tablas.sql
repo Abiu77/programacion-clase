@@ -73,7 +73,7 @@ CREATE TABLE usuarios (
 
 CREATE TABLE registros(
     registrosID INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR (50),
-    Email VARCHAR(40),
+    nombre_completo VARCHAR (50),
+    email VARCHAR(40),
     contrasena VARBINARY(50)
-)
+);
