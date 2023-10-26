@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+div{
+    margin: 48% 0px;
+}
+
+h1{
+    background-color: #fc5e5e70;
+    text-align: center;
+}
