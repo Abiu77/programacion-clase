@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+
+.solido{
+    border: 10px solid red;
+    border-width: 10px;
+    border-radius: 0px;
+}
