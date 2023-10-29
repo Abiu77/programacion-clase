@@ -10,7 +10,6 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url(img/4.png);
-    height: 100vh;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,8 +19,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+section{
     margin: 20px;
-    padding: 20px;
+    
+}
+
+article{
+    border-top: solid 2px #ffffff;
+    border-bottom: solid 2px #ffffff;
+    padding: 10px;
 }
 
 .information {
@@ -31,22 +39,29 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 0px 80px 0px;
+    margin: 230px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
 .info-childs {
     width: 100%;
-    padding: 0 30px;
+    
+    margin-bottom: 50px;
+    background-color: rgba(8, 8, 51, 0.877);
+    position: fixed;
 }
 
 .info-childs h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: #ffffff;
+    text-shadow: 4px 2px 2px #000;
 }
 
 .info-childs p {
     margin: 15px 0;
-    color: #000000;
+    color: #ffffff;
 }
 
 .info-childs input {
@@ -82,16 +97,15 @@ body {
 }
 
 .product {
-    flex: 1;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: auto;
 }
 
 .product img {
@@ -124,3 +138,8 @@ body {
 a {
     text-decoration: none;
 }
+
+input:hover {
+    background: #1dfd09;
+    color: #000;
+  }

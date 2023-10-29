@@ -48,8 +48,7 @@ body {
 .info-childs h2 {
     font-size: 2.5rem;
     color: #000000;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-shadow: 3px 2px 1px #fff;
 }
 
 .info-childs p {
@@ -72,6 +71,24 @@ body {
 }
 
 .info-childs input:hover {
+    background-color: #9191bd;
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.btn-re input{
+    width: 100%;
+    border: 2px solid #9191bd;
+    border-radius: 20px;
+    padding: 9px 0px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffe600;
+}
+
+.btn-re input:hover {
     background-color: #9191bd;
     border: none;
     color: #fff;
@@ -119,7 +136,7 @@ body {
 }
 
 .icons i:hover {
-    background-color: #c7eef3;
+    background-color: #14aec2;
     color: #fff;
 }
 
