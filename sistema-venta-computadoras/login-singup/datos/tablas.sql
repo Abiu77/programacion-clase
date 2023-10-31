@@ -3,7 +3,6 @@ CREATE DATABASE miapp
 
 USE miapp;
 
-
 CREATE TABLE Clientes (
     ClienteID INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
@@ -46,15 +45,6 @@ CREATE TABLE DetallesVenta (
     FOREIGN KEY (ProductoID) REFERENCES Productos(ProductoID)
 );
 
-CREATE TABLE Compras (
-    ComprasID INT AUTO_INCREMENT PRIMARY KEY,
-    ProductoID INT,
-    ProveedorID INT,
-    Cantidad INT,
-    FOREIGN KEY (ProductoID) REFERENCES Productos(ProductoID),
-    FOREIGN KEY (ProveedorID) REFERENCES Proveedores(Proveedores)
-);
-
 CREATE TABLE Proveedores (
     ProveedorID INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
@@ -62,6 +52,16 @@ CREATE TABLE Proveedores (
     Telefono VARCHAR(15),
     Email VARCHAR(100)
 );
+
+CREATE TABLE Compras (
+    ComprasID INT AUTO_INCREMENT PRIMARY KEY,
+    ProductoID INT,
+    ProveedorID INT,
+    Cantidad INT,
+    FOREIGN KEY (ProductoID) REFERENCES Productos(ProductoID),
+    FOREIGN KEY (ProveedorID) REFERENCES Proveedores(ProveedorID)
+);
+
 
 CREATE TABLE usuarios (
     UsuarioID INT AUTO_INCREMENT PRIMARY KEY,
