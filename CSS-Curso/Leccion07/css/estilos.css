@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
   margin: 0px;
 }
@@ -18,6 +21,7 @@ h1{
   text-align: center;
   text-transform: uppercase;
   text-shadow: 2px 4px 2px #ff8800;
+  font-family: 'Sofia', cursive;
 }
 
 .caja{
