@@ -18,3 +18,11 @@ a{
 li{
   display: inline;
 }
+
+h1{
+  display: none;
+}
+
+p{
+  visibility: hidden;
+}
