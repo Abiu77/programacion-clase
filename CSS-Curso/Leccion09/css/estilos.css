@@ -10,3 +10,11 @@ span{
   display: inline;
   border: 1px solid blue;
 }
+
+a{
+  display: block;
+}
+
+li{
+  display: inline;
+}
