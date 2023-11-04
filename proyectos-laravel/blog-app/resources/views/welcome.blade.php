@@ -10,26 +10,15 @@
 <body>
 
     <div class="container">
-        <article>
-            <h1>Curso de Laravel 9/10</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate possimus corrupti accusamus assumenda, enim asperiores, molestias nesciunt tempora pariatur doloremque reiciendis id explicabo tempore.
-            </p>
-        </article>
-    
-        <article>
-            <h1>Novedades de Laravel 9/10</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate possimus corrupti accusamus assumenda, enim asperiores, molestias nesciunt tempora pariatur doloremque reiciendis id explicabo tempore.
-            </p>
-        </article>
         
-        <article>
-            <h1>Manejo basico de Eloquent</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate possimus corrupti accusamus assumenda, enim asperiores, molestias nesciunt tempora pariatur doloremque reiciendis id explicabo tempore.
-            </p>
-        </article>
+        @foreach ($posts as $post)
+            <article>
+                <h1> {{ $post ['title'] }} </h1>
+                <p>
+                    {{ $post['excerpt'] }}
+                </p>
+            </article>
+        @endforeach 
     </div>
     
 </body>
