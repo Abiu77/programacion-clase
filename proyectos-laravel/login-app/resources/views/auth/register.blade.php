@@ -31,10 +31,6 @@
                           style="width: 185px;" alt="logo">
                         <h4 class="mt-1 mb-5 pb-1">Registrarse</h4>
                       </div>
-      
-
-
-
 
                       <form action="{{route('register')}}" method="POST">
                         @csrf                         
@@ -70,12 +66,8 @@
                           <a href="{{route('login')}}" class="btn btn-outline-danger">login</a>
                         </div>
       
-                      </form>
-      
-
-
-
-                      
+                      </form>  
+                                           
                     </div>
                   </div>
                   <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
