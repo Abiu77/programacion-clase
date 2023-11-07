@@ -1,21 +1,45 @@
+
 *{
   margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-  margin-top: 100px;
   color: crimson;
   text-align: center;
+  background-color: aqua;
+  padding: 30px 0px;
 }
 
 div{
-  background-color: #00f4;
-  position: fixed;
-  top: 0px;
+  position: sticky;
   width: 100%;
-  padding: 30px 20px;
+  top: 0px;
+  background-color: #f00;
+  cursor: pointer;
 }
 
-p{
-  height: 1000px;
+article{
+  margin: auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+article a{
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
+  color: #fff;
+}
+
+a:hover{
+  background-color: aqua;
+  font-weight: bold;
+  color: #000;
+}
+
+.parrafo{
+  height: 2000px;
 }
