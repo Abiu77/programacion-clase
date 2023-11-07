@@ -1,45 +1,23 @@
-
-*{
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 h1{
-  color: crimson;
   text-align: center;
-  background-color: aqua;
-  padding: 30px 0px;
 }
 
-div{
-  position: sticky;
-  width: 100%;
-  top: 0px;
-  background-color: #f00;
-  cursor: pointer;
-}
-
-article{
+div.contenedor{
+  position: relative;
+  border: 3px dashed greenyellow;
+  width: 30%;
   margin: auto;
-  width: 60%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-article a{
-  text-decoration: none;
+div.centro{
+  position: absolute;
+  top: 50%;
+  width: 100%;
   text-align: center;
-  padding: 15px;
-  margin: 0px;
-  color: #fff;
+  font-size: 25px;
 }
 
-a:hover{
-  background-color: aqua;
-  font-weight: bold;
-  color: #000;
-}
-
-.parrafo{
-  height: 2000px;
+img{
+  width: 100%;
+  opacity: .3;
 }
