@@ -3,21 +3,13 @@ h1{
 }
 
 div.contenedor{
-  position: relative;
-  border: 3px dashed greenyellow;
+  border: 3px dashed rgb(0, 0, 0);
   width: 30%;
+  height: 100px;
   margin: auto;
-}
-
-div.centro{
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  font-size: 25px;
-}
-
-img{
-  width: 100%;
-  opacity: .3;
+  /*overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;*/
+  overflow: auto;
 }
