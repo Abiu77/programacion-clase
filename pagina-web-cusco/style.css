@@ -86,10 +86,9 @@ section .texto{
   gap: 15px;
 }
 
-.popi div {
+.popi div img{
   width: 100%;
   height: 150px;
-  box-shadow: 0px 0px 4px #000;
   border-radius: 10px;
 }
 
@@ -101,7 +100,6 @@ div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
 }
 
 a:hover {
