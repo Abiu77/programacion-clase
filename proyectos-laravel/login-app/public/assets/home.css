@@ -1,5 +1,32 @@
-
-.inicio{
+.producto-cabe{
   background-color: aqua;
-  height: 100vh;
+  width: 95%;
+  height: 20%;
+  margin: auto;
+}
+
+.producto{
+  background-color: brown;
+  width: 95%;
+  margin: auto;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 90%; 
+  padding-top: 20px;
+  background-color: black;
+}
+
+section figure img{
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

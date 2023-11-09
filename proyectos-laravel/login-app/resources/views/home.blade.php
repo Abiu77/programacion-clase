@@ -31,7 +31,7 @@
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Escritorio</span> </a>
+                            <i class="fs-4 bi bi-gear"></i> <span class="ms-1 d-none d-sm-inline">Configuracion</span> </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
                                     <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
@@ -61,7 +61,7 @@
                         </li>                        
                         <li>
                             <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                                <i class="fs-4 bi bi-cart3"></i> <span class="ms-1 d-none d-sm-inline">Vender</span></a>
+                            <i class="fs-4 bi bi-pc-display"></i> <span class="ms-1 d-none d-sm-inline">Contable</span></a>
                             <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
                                 <li class="w-100">
                                     <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
@@ -73,15 +73,11 @@
                         </li>                      
                        <li>
                             <a href="#" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Clientes</span></a>
+                            <i class="fs-4 bi bi-currency-dollar"></i> <span class="ms-1 d-none d-sm-inline">Ingresos</span></a>
                         </li>
                         <li>
                             <a href="#" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi bi-archive"></i> <span class="ms-1 d-none d-sm-inline">Caja</span> </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi bi-check2-square"></i> <span class="ms-1 d-none d-sm-inline">Reportes</span> </a>
+                            <i class="fs-4 bi bi-check2-square"></i> <span class="ms-1 d-none d-sm-inline">Egresos</span> </a>
                         </li>
                         <li>
                             <a href="#" class="nav-link px-0 align-middle">
@@ -120,8 +116,50 @@
             </div>
             <div class="col py-0 px-0">
                 
-                <div class="inicio">
-
+                <div class="producto-cabe">
+                    <nav class="categorias">Categorias</nav>
+                    <nav class="buscador"> <input type="text" name="" id="" placeholder="Encuentre su producto"> </nav>
+                    <nav class="ofertas">ofertas</nav>
+                </div>
+                <div class="producto">
+                    <section class="popi">
+                        <figure class="caja">
+                            <img src="https://images.hola.com/imagenes/estar-bien/20230727236387/tomate-propiedades-saludables-dieta/1-286-101/tomate-t.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://saborusa.com.pa/imagesmg/imagenes/5ff3e6a0b703f_potatoes-food-supermarket-agriculture-JG7QGNY.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://www.molinosycia.com/wp-content/uploads/2023/03/cebolla_r_02.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://www.cuerpomente.com/medio/2023/06/15/zanahoria_7d572751_230615155206_1280x720.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://static.eldiario.es/clip/6d50a1af-72d2-411b-8d7f-b4c16307942b_16-9-aspect-ratio_default_0.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://chilli-no5.com/wp-content/uploads/2021/01/health-benefits-celery.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://thefoodtech.com/wp-content/uploads/2021/01/cebada.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://prama.com.ar/wp-content/uploads/2022/08/palta.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2023/09/como-hacer-queso-con-1-litro-de-leche.jpg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/11/02/huevo-frito.jpeg" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://www.saborusa.com/wp-content/uploads/2023/07/sostenibilidad-frijol-1.webp" alt="">
+                        </figure>
+                        <figure class="caja">
+                            <img src="https://s2.abcstatics.com/media/bienestar/2023/04/17/platano-beneficios-1-kVAG--620x349@abc.jpg" alt="">
+                        </figure>
+                    </section>
                 </div>
             </div>
         </div>
