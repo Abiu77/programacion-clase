@@ -10,160 +10,199 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ asset('assets/home.css')}}">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
   
-    <div class="container-fluid">
-        <div class="row flex-nowrap">
-            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
-                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                        <span class="fs-5 d-none d-sm-inline">Menu Principal</span>
-                    </a>
-                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link align-middle px-0">
-                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Inicio</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi bi-gear"></i> <span class="ms-1 d-none d-sm-inline">Configuracion</span> </a>
-                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                                <li class="w-100">
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Productos</span> <i class=" fs-8 bi bi-caret-left-fill"></i> </a>
-                                <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                                <li class="w-100">
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
-                                </li>
-                            </ul>
-                        </li>                        
-                        <li>
-                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                            <i class="fs-4 bi bi-pc-display"></i> <span class="ms-1 d-none d-sm-inline">Contable</span></a>
-                            <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                                <li class="w-100">
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
-                                </li>
-                            </ul>
-                        </li>                      
-                       <li>
-                            <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi bi-currency-dollar"></i> <span class="ms-1 d-none d-sm-inline">Ingresos</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi bi-check2-square"></i> <span class="ms-1 d-none d-sm-inline">Egresos</span> </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi bi-bar-chart"></i> <span class="ms-1 d-none d-sm-inline">Gráficas y estadisticas</span> </a>
-                        </li>
-                    </ul>
-                    <hr>
-                    <div class="dropdown pb-4">
-                        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                            <span class="d-none d-sm-inline mx-1">Usuario</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                            <li><a class="dropdown-item" href="#">Nuevo proyecto</a></li>
-                            <li><a class="dropdown-item" href="#">Ajustes</a></li>
-                            <li><a class="dropdown-item" href="#">Perfil</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li> 
-                    
-                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                                    document.getElementById('logout-form').submit();">
-                                        {{ __('Cerra Sesion') }}
-                                </a>
-                                
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col py-0 px-0">
-                
-                <div class="producto-cabe">
-                    <nav class="categorias">Categorias</nav>
-                    <nav class="buscador"> <input type="text" name="" id="" placeholder="Encuentre su producto"> </nav>
-                    <nav class="ofertas">ofertas</nav>
-                </div>
-                <div class="producto">
-                    <section class="popi">
-                        <figure class="caja">
-                            <img src="https://images.hola.com/imagenes/estar-bien/20230727236387/tomate-propiedades-saludables-dieta/1-286-101/tomate-t.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://saborusa.com.pa/imagesmg/imagenes/5ff3e6a0b703f_potatoes-food-supermarket-agriculture-JG7QGNY.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://www.molinosycia.com/wp-content/uploads/2023/03/cebolla_r_02.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://www.cuerpomente.com/medio/2023/06/15/zanahoria_7d572751_230615155206_1280x720.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://static.eldiario.es/clip/6d50a1af-72d2-411b-8d7f-b4c16307942b_16-9-aspect-ratio_default_0.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://chilli-no5.com/wp-content/uploads/2021/01/health-benefits-celery.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://thefoodtech.com/wp-content/uploads/2021/01/cebada.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://prama.com.ar/wp-content/uploads/2022/08/palta.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2023/09/como-hacer-queso-con-1-litro-de-leche.jpg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/11/02/huevo-frito.jpeg" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://www.saborusa.com/wp-content/uploads/2023/07/sostenibilidad-frijol-1.webp" alt="">
-                        </figure>
-                        <figure class="caja">
-                            <img src="https://s2.abcstatics.com/media/bienestar/2023/04/17/platano-beneficios-1-kVAG--620x349@abc.jpg" alt="">
-                        </figure>
-                    </section>
-                </div>
-            </div>
+    <div class="sidebar close">
+        <div class="logo">
+            <i class="fs-4 bi bi-fire"></i>
+          <span class="logo-name">Menu principal</span>
         </div>
+  
+        <ul class="nav-list">
+          <li>
+            <a href="#">
+                <i class="fs-4 bi bi-cart-plus-fill"></i>
+              <span class="link-name">Productos</span>
+            </a>
+  
+            <ul class="sub-menu blank">
+              <li><a href="#" class="link-name">Productos</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="fs-4 bi bi-pc-display"></i>
+                <span class="link-name">Contable</span>
+              </a>
+              <i class="fas fa-caret-down arrow"></i>
+            </div>
+  
+            <ul class="sub-menu">
+              <li><a href="#" class="link-name">Contable</a></li>
+              <li><a href="#">Block Chain</a></li>
+              <li><a href="#">Cryptography</a></li>
+              <li><a href="#">Animation</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="fs-4 bi bi-currency-dollar"></i>
+                <span class="link-name">Ingresos</span>
+              </a>
+              <i class="fas fa-caret-down arrow"></i>
+            </div>
+  
+            <ul class="sub-menu">
+              <li><a href="#" class="link-name">Ingresos</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Card Design</a></li>
+              <li><a href="#">Form Design</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="fs-4 bi bi-check2-square"></i>
+                <span class="link-name">Egresos</span>
+              </a>
+              <i class="fas fa-caret-down arrow"></i>
+            </div>
+  
+            <ul class="sub-menu">
+              <li><a href="#" class="link-name">Egresos</a></li>
+              <li><a href="#">Python Compiler</a></li>
+              <li><a href="#">Java Compiler</a></li>
+              <li><a href="#">C Compiler</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="#">
+              <i class="fs-4 bi bi-bar-chart"></i>
+              <span class="link-name">Graficas y estadisticas</span>
+            </a>
+  
+            <ul class="sub-menu blank">
+              <li><a href="#" class="link-name">Graficas y estadisticas</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="#">
+              <i class="fas fa-bookmark"></i>
+              <span class="link-name">Guardado</span>
+            </a>
+  
+            <ul class="sub-menu blank">
+              <li><a href="#" class="link-name">Guardado</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="#">
+              <i class="fas fa-clock-rotate-left"></i>
+              <span class="link-name">Actividad</span>
+            </a>
+  
+            <ul class="sub-menu blank">
+              <li><a href="#" class="link-name">Actividad</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="#">
+              <i class="fas fa-heart"></i>
+              <span class="link-name">Favoritos</span>
+            </a>
+  
+            <ul class="sub-menu blank">
+              <li><a href="#" class="link-name">Favoritos</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="#">
+              <i class="fas fa-gear"></i>
+              <span class="link-name">Configuracion</span>
+            </a>
+  
+            <ul class="sub-menu blank">
+              <li><a href="#" class="link-name">Configuracion</a></li>
+            </ul>
+          </li>
+  
+          <li>
+                <div class="profile-details">
+                <div class="profile-content">
+                    <img src="https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg" alt="" />
+                </div>
+    
+                <div class="name-job">
+                    <div class="name">Usuario</div>
+                    <div class="job">desconocido</div>
+                    
+                </div>
+                <a  href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();"><i class="fas fa-right-to-bracket"></i></a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+                </div>
+
+          </li>
+        </ul>
+      </div>
+  
+      <div class="home-section">
+        <div class="home-content">
+          <i class="fas fa-bars" style="color: #fff"></i>
+          <article class="cabecera-menu">
+            <span>Bienvenidos</span>
+            <span>zzzzz</span>
+        </article>
     </div>
+    <div class="menu-cabecera">
+        <article class="nike">
+            <img src="{{ asset('assets/nike.png') }}" style="width: 190px; height: 100px">
+        </article>
+
+        <article class="nike2">
+            <input type="text" name="" id="" placeholder="Encuentre su producto favorito">
+        </article>
+
+        <article class="nike3">
+            <a class="ofertas" href="">Ofertas</a>
+        </article>
+        
+    </div>
+        
+    <div class="caja">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolorum reprehenderit molestiae magnam itaque dolore laborum corrupti? Maxime distinctio veniam quae iste, tempore optio quod. Doloremque obcaecati excepturi error illo ipsum odio placeat unde ratione distinctio! In ex, ipsa consectetur dolore, soluta repellendus nemo temporibus corrupti totam excepturi voluptatem at sapiente dolores facere ab quos exercitationem? Quibusdam qui asperiores quisquam autem corrupti eos ut omnis maxime, quas eveniet quod doloribus facere veritatis porro, voluptate dignissimos adipisci natus repudiandae. Non ullam, culpa accusamus ut praesentium excepturi, soluta voluptates rerum repudiandae aspernatur, aut fugiat dolores voluptatibus sunt fuga quibusdam facilis! Obcaecati, ea!
+        </p>
+    </div>
+
+      </div>
+      
+      
+
+      <script src="{{ asset('assets/menu.js')}}"></script>
+            
+
+
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
