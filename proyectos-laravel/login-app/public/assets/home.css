@@ -254,7 +254,7 @@
   transition: all 0.5s ease;
 }
 
-.sidebar.close ~ .home-section {
+.sidebar.close~.home-section {
   left: 78px;
   width: calc(100% - 78px);
 }
@@ -301,27 +301,26 @@
     z-index: 100;
   }
 
-  .sidebar.close ~ .home-section {
+  .sidebar.close~.home-section {
     width: 100%;
     left: 0;
   }
 }
 
-
-.caja{
+.caja {
   background-color: aqua;
   height: 150%;
   width: 100%;
 }
 
-.home-content{
+.home-content {
   position: sticky;
   top: 0px;
   background-color: #1d1b31;
   color: #ffffff;
 }
 
-.cabecera-menu{
+.cabecera-menu {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -330,23 +329,21 @@
   margin-right: 20px;
 }
 
-.menu-cabecera{
+.menu-cabecera {
   width: 90%;
   height: 100px;
-  background-color: rgba(255, 255, 255, 0.733);
+  background-color: rgba(0, 0, 0, 0.733);
   margin: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.nike{
+.nike {
   width: 25%;
   height: 100%;
   background-color: blueviolet;
 }
 
-.nike2{
+.nike2 {
   background-color: rgb(255, 196, 0);
   width: 50%;
   height: 100%;
@@ -355,19 +352,35 @@
   justify-content: center;
 }
 
-.nike3{
+.nike3 {
   background-color: rgb(255, 30, 0);
   width: 25%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.nike3 a{
-  background-color: #11101d;
-  padding: 20px 50px;
-}
-
-.nike2 input{
+.nike2 input {
   width: 90%;
   height: 45%;
   border: 1px solid #666666;
+}
+
+.ofertas {
+  background-color: rgb(0, 255, 42);
+  height: 45%;
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ofertas a {
+  text-decoration: none;
+}
+
+svg {
+  stroke: #000000;
+  stroke: 10px;
 }

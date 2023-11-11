@@ -175,17 +175,24 @@
         </article>
     </div>
     <div class="menu-cabecera">
-        <article class="nike">
+        <div class="nike">
             <img src="{{ asset('assets/nike.png') }}" style="width: 190px; height: 100px">
-        </article>
+        </div>
 
-        <article class="nike2">
-            <input type="text" name="" id="" placeholder="Encuentre su producto favorito">
-        </article>
+        <label class="nike2">
+            <input type="text" name="" id="" placeholder="Encuentre su producto favorito"> 
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                <path d="M21 21l-6 -6"></path>
+              </svg> 
+        </label>
 
-        <article class="nike3">
-            <a class="ofertas" href="">Ofertas</a>
-        </article>
+        <div class="nike3">
+            <div class="ofertas">
+              <a href="">Ofertas</a>
+            </div>
+        </div>
         
     </div>
         
