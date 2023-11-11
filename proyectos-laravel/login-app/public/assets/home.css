@@ -312,6 +312,7 @@
   top: 0px;
   background-color: #1d1b31;
   color: #ffffff;
+  z-index: 1;
 }
 
 .cabecera-menu {
@@ -332,6 +333,7 @@
   position: sticky;
   top: 60px;
   background-color: #e4e9f7;
+  z-index: 1;
 }
 
 .nike {
@@ -404,9 +406,6 @@ a{
     );
   gap: 30px;
 }
-.galeria-box p{
-  margin: 0px 21px;
-}
 
 .galeria-box div{
   display: flex;
@@ -417,6 +416,11 @@ a{
   position: relative;
 }
 
+.pod-head{
+  display: flex;
+  align-items: center;
+}
+
 div.hijo{
   position: absolute;
   right: 12px;
@@ -425,30 +429,42 @@ div.hijo{
 
 .bi-heart{
   font-size: 25px;
-  background-color: #fc7a7a;
+  color: #ff385c;
 }
 
 .galeria-box div{
-  height: 64%;
+  height: 54%;
+  background-color: #3fae2a;
 }
 
 .galeria-box p{
-  height: 25%;
+  height: 28%;
+  margin: 0px 21px;
+  background-color: #ff385c;
 }
 
 .galeria-box article{
-  height: 10%;
+  height: 5%;
+  margin: 0px 21px;
+  background-color: aquamarine;
+}
+
+.galeria-box section{
+  height: 14%;
+  background-color: #ffc100;
 }
 
 strong{
   font-size: 18px;
 }
 
-article .btn-car{
-  height: 10%;
+.galeria-box section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn-car{
+section .shopping{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,4 +488,20 @@ article .btn-car{
 
 .redes i{
   border: #fff;
+}
+
+.bi-check-circle-fill{
+  color: #3fae2a;
+}
+
+article .pod-head img{
+  object-fit: cover;
+}
+
+.bi-star-fill{
+  color: #ffc100;
+}
+
+.bi-star-half{
+  color: #ffc100;
 }

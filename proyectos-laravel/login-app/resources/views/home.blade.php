@@ -185,7 +185,7 @@
           </div>  
         </div>
 
-        <label class="nike2">
+        <label class="nike2" style="position:relative;">
             <input type="text" name="" id="" placeholder="Encuentre su producto favorito"> 
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -205,12 +205,14 @@
       <div class="galeria">
 
         <article class="galeria-box">
+
           <div class="pod-head">
-            <img style="width: 100%; height: 100%" src="https://plazavea.vteximg.com.br/arquivos/ids/518590-450-450/60769.jpg?v=637417681802200000 alt=">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/518590-450-450/60769.jpg?v=637417681802200000 alt=">
             <div class="hijo">
               <a href=""><i class="bi bi-heart"></i></a>
             </div>
           </div>
+
             <p> 
                 <strong>Tomate Italiano</strong><br> 
                 <span style="font-size: 15px"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
@@ -219,13 +221,23 @@
                 <br>
                 <strong>S/ 5.60 x kg</strong>
             </p>
-
             
-            <section class="btn-car">
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
               <a href="" class="shopping">
                 <p>Agregar <i class="bi bi-cart3"></i></p>
               </a>
             </section>
+
         </article>
 
         <article class="galeria-box">
