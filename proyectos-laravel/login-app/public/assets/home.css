@@ -307,12 +307,6 @@
   }
 }
 
-.caja {
-  background-color: aqua;
-  height: 150%;
-  width: 100%;
-}
-
 .home-content {
   position: sticky;
   top: 0px;
@@ -330,21 +324,24 @@
 }
 
 .menu-cabecera {
-  width: 90%;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.733);
-  margin: auto;
+  width: 100%;
+  height: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
+  position: sticky;
+  top: 60px;
+  background-color: #e4e9f7;
 }
 
 .nike {
   width: 25%;
   height: 100%;
-  background-color: blueviolet;
+  display: flex;
+  align-items: center;
 }
 
 .nike2 {
-  background-color: rgb(255, 196, 0);
   width: 50%;
   height: 100%;
   display: flex;
@@ -353,7 +350,6 @@
 }
 
 .nike3 {
-  background-color: rgb(255, 30, 0);
   width: 25%;
   height: 100%;
   display: flex;
@@ -362,13 +358,15 @@
 
 .nike2 input {
   width: 90%;
-  height: 45%;
+  height: 35%;
   border: 1px solid #666666;
+  border-radius: 30px 0px 0px 30px;
+  padding-left: 15px;
 }
 
 .ofertas {
-  background-color: rgb(0, 255, 42);
-  height: 45%;
+  background-color: #1d1b31;
+  height: 35%;
   width: 90%;
   margin-left: 10%;
   display: flex;
@@ -376,11 +374,102 @@
   justify-content: center;
 }
 
-.ofertas a {
+a{
   text-decoration: none;
 }
 
-svg {
-  stroke: #000000;
-  stroke: 10px;
+.ofertas div {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.caja-principal{
+  width: 90%;
+  margin: auto; 
+}
+
+.galeria > article{
+  width: 100%;
+  height: 410px;
+  background-color: #ffffff;
+}
+
+.galeria{
+  display: grid;
+  grid-template-columns: 
+    repeat(
+      auto-fit,
+      minmax(250px, 1fr)
+    );
+  gap: 30px;
+}
+.galeria-box p{
+  margin: 0px 21px;
+}
+
+.galeria-box div{
+  display: flex;
+  justify-content: center;
+}
+
+.pod-head{
+  position: relative;
+}
+
+div.hijo{
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
+
+.bi-heart{
+  font-size: 25px;
+  background-color: #fc7a7a;
+}
+
+.galeria-box div{
+  height: 64%;
+}
+
+.galeria-box p{
+  height: 25%;
+}
+
+.galeria-box article{
+  height: 10%;
+}
+
+strong{
+  font-size: 18px;
+}
+
+article .btn-car{
+  height: 10%;
+}
+
+.btn-car{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping{
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ff385c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.shopping p{
+  color: #fff;
+  font-weight: 500;
+}
+
+.redes i{
+  border: #fff;
 }

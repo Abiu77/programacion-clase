@@ -170,13 +170,19 @@
         <div class="home-content">
           <i class="fas fa-bars" style="color: #fff"></i>
           <article class="cabecera-menu">
-            <span>Bienvenidos</span>
-            <span>zzzzz</span>
-        </article>
-    </div>
+            <span style="font-size: 20px">TiendaOnline.com</span>
+            <span>
+              <a href="https://github.com/Abiu77" target="_blank"><i style="color: #fff; font-size: 28px" class="bi bi-github"></i></a>
+              <a href="https://www.youtube.com/@tutosabiu/" target="_blank"><i style="color: #fff; font-size: 28px" class="bi bi-youtube"></i></a>
+              <a href=""><i style="color: #fff; font-size: 28px" class="bi bi-twitter"></i></a>          
+            </span>
+          </article>
+        </div>
     <div class="menu-cabecera">
         <div class="nike">
-            <img src="{{ asset('assets/nike.png') }}" style="width: 190px; height: 100px">
+          <div class="img-nike">
+            <img src="{{ asset('assets/logo.png') }}" style="width: 200px">
+          </div>  
         </div>
 
         <label class="nike2">
@@ -189,17 +195,90 @@
         </label>
 
         <div class="nike3">
-            <div class="ofertas">
-              <a href="">Ofertas</a>
-            </div>
+            <a href="" class="ofertas">
+              <div>Ofertas</div>
+            </a>
         </div>
-        
     </div>
         
-    <div class="caja">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolorum reprehenderit molestiae magnam itaque dolore laborum corrupti? Maxime distinctio veniam quae iste, tempore optio quod. Doloremque obcaecati excepturi error illo ipsum odio placeat unde ratione distinctio! In ex, ipsa consectetur dolore, soluta repellendus nemo temporibus corrupti totam excepturi voluptatem at sapiente dolores facere ab quos exercitationem? Quibusdam qui asperiores quisquam autem corrupti eos ut omnis maxime, quas eveniet quod doloribus facere veritatis porro, voluptate dignissimos adipisci natus repudiandae. Non ullam, culpa accusamus ut praesentium excepturi, soluta voluptates rerum repudiandae aspernatur, aut fugiat dolores voluptatibus sunt fuga quibusdam facilis! Obcaecati, ea!
-        </p>
+    <div class="caja-principal">
+      <div class="galeria">
+
+        <article class="galeria-box">
+          <div class="pod-head">
+            <img style="width: 100%; height: 100%" src="https://plazavea.vteximg.com.br/arquivos/ids/518590-450-450/60769.jpg?v=637417681802200000 alt=">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+            <p> 
+                <strong>Tomate Italiano</strong><br> 
+                <span style="font-size: 15px"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+              </span>
+                <br>
+                <strong>S/ 5.60 x kg</strong>
+            </p>
+
+            
+            <section class="btn-car">
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+        </article>
+
+        <article class="galeria-box">
+          
+          <div>
+            <img style="width: 100%" src="https://plazavea.vteximg.com.br/arquivos/ids/518589-512-512/844123.jpg" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+          
+        </article>
+        <article class="galeria-box">
+          <div>
+            <img style="width: 100%" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+        </article>
+        <article class="galeria-box">
+          <div>
+            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+        </article>
+        <article class="galeria-box">
+          <div>
+            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+        </article>
+        <article class="galeria-box">
+          <div>
+            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+        </article>
+        <article class="galeria-box">
+          <div>
+            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+        </article>
+        <article class="galeria-box">
+          <div>
+            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+        </article>
+        <article class="galeria-box">
+          <div>
+            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+        </article>
+      </div>
     </div>
 
       </div>
