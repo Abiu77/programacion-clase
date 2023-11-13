@@ -207,17 +207,17 @@
         <article class="galeria-box">
 
           <div class="pod-head">
-            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/518590-450-450/60769.jpg?v=637417681802200000 alt=">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/518590-450-450/60769.jpg?v=637417681802200000" alt="">
             <div class="hijo">
               <a href=""><i class="bi bi-heart"></i></a>
             </div>
           </div>
 
-            <p> 
-                <strong>Tomate Italiano</strong><br> 
-                <span style="font-size: 15px"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
-                <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
-              </span>
+            <p style="line-height: 28px"> 
+                <strong>Tomate Italiano</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
                 <br>
                 <strong>S/ 5.60 x kg</strong>
             </p>
@@ -241,55 +241,689 @@
         </article>
 
         <article class="galeria-box">
-          
-          <div>
-            <img style="width: 100%" src="https://plazavea.vteximg.com.br/arquivos/ids/518589-512-512/844123.jpg" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/226526-512-512/zanahoria-entera.jpg">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
-          
+
+            <p style="line-height: 28px"> 
+                <strong>Zanahoria</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 3.19 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
         <article class="galeria-box">
-          <div>
-            <img style="width: 100%" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/226537-1000-1000/120941.jpg?v=636977898135270000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+
+            <p style="line-height: 28px"> 
+                <strong>Pimiento Marron</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 10.60 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
         <article class="galeria-box">
-          <div>
-            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/169297-450-450/60493.jpg?v=635769969532530000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+
+            <p style="line-height: 28px"> 
+                <strong>Pepinillo</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 1.49 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
         <article class="galeria-box">
-          <div>
-            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/226524-450-450/132040.jpg?v=636977898052470000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+
+            <p style="line-height: 28px"> 
+                <strong>Brócoli</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 2.49 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
         <article class="galeria-box">
-          <div>
-            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/646177-450-450/365826.jpg?v=637443514164330000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+
+            <p style="line-height: 28px"> 
+                <strong>Papa Peruanita</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 6.90 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
         <article class="galeria-box">
-          <div>
-            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://www.supermercadosantamaria.com/documents/10180/10504/31041_G.jpg">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+
+            <p style="line-height: 28px"> 
+                <strong>Vainita Americana</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 4.89 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
         <article class="galeria-box">
-          <div>
-            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/173637-450-450/993908.jpg?v=635785255623570000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+
+            <p style="line-height: 28px"> 
+                <strong>Choclo Entero</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 3.69 un</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
         <article class="galeria-box">
-          <div>
-            <img style="width: 300px" src="https://vans.com.pe/cdn/shop/products/8G1PHN_E-ALT2.jpg?v=1662857636" alt="">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/177076-450-450/60288.jpg?v=635864715655970000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat mollitia iste tempore quidem quo non aliquid vel unde sit!</p>
+
+            <p style="line-height: 28px"> 
+                <strong>Limón Ácido</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 10.00 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
         </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/26975555-512-512/20017640.jpg">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Zapallo Macre</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 2.00 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/518589-512-512/844123.jpg">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Cebolla Roja</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 2.80 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/169268-450-450/59053.jpg?v=635769969252800000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Arveja</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 6.00 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/27139065-450-450/55338.jpg?v=638253506780370000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Apio Atado</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 1.00 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/646178-450-450/88406.jpg?v=637443514194630000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Yuca</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 5.50 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/518591-450-450/59961.jpg?v=637417681832070000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Kion</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 6.40 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/646179-512-512/59640.jpg">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Camote Morado</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 2.00 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/646189-512-512/180184.jpg">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Caigua x unidad</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 1.00 un</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/518592-450-450/60356.jpg?v=637417681866770000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Olluco</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 9.00 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/20372457-450-450/64576.jpg?v=638023231236300000">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Palta</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 11.00 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+
+        <article class="galeria-box">
+
+          <div class="pod-head">
+            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/169290-512-512/maiz-morado-bolsa-1kg.jpg">
+            <div class="hijo">
+              <a href=""><i class="bi bi-heart"></i></a>
+            </div>
+          </div>
+
+            <p style="line-height: 28px"> 
+                <strong>Maiz morado</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
+                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                </span>
+                <br>
+                <strong>S/ 6.50 x kg</strong>
+            </p>
+            
+            <article>
+              <span class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              </span>
+            </article>
+            
+            <section>
+              <a href="" class="shopping">
+                <p>Agregar <i class="bi bi-cart3"></i></p>
+              </a>
+            </section>
+
+        </article>
+        
       </div>
     </div>
 
