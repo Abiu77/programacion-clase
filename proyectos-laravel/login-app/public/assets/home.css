@@ -16,7 +16,7 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background-color: #11101d;
+  background-color: #475569;
   z-index: 100;
   transition: all 0.5s ease;
 }
@@ -310,8 +310,8 @@
 .home-content {
   position: sticky;
   top: 0px;
-  background-color: crimson;
-  color: #ffffff;
+  background-color: #475569;
+  color: #fff;
   z-index: 1;
 }
 
@@ -332,7 +332,7 @@
   display: flex;
   position: sticky;
   top: 60px;
-  background-color: #ffdd00;
+  background-color: #334155;
   z-index: 1;
   margin-bottom: 50px;
 }
@@ -367,12 +367,9 @@
   padding-left: 15px;
 }
 
-.nike2 svg{
+.nike2 svg {
   position: absolute;
-  right: 0px;
-  background-color: #3fae2a;
-  height: 35%;
-  width: 10%;
+  right: 8%;
 }
 
 .ofertas {
@@ -385,7 +382,7 @@
   justify-content: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -395,93 +392,91 @@ a{
   font-weight: 500;
 }
 
-.caja-principal{
+.caja-principal {
   width: 90%;
-  margin: auto; 
+  margin: auto;
 }
 
-.galeria > article{
+.galeria>article {
   width: 100%;
   height: 410px;
   background-color: #ffffff;
 }
 
-.galeria{
+.galeria {
   display: grid;
-  grid-template-columns: 
-    repeat(
-      auto-fit,
-      minmax(250px, 1fr)
-    );
+  grid-template-columns:
+    repeat(auto-fit,
+      minmax(250px, 1fr));
   gap: 30px;
 }
 
-.galeria-box{
+.galeria-box {
   border-radius: 20px;
 }
 
-.galeria-box div{
+.galeria-box div {
   display: flex;
   justify-content: center;
 }
 
-.pod-head{
+.pod-head {
   position: relative;
 }
 
-.pod-head{
+.pod-head {
   display: flex;
   align-items: center;
 }
 
-div.hijo{
+div.hijo {
   position: absolute;
   right: 12px;
   top: 8px;
 }
 
-.bi-heart{
+.bi-heart {
   font-size: 25px;
   color: #ff385c;
 }
 
-.galeria-box div{
+.galeria-box div {
   height: 54%;
 }
 
-.galeria-box p{
+.galeria-box p {
   height: 28%;
   margin: 0px 21px;
 }
 
-.galeria-box article{
+.galeria-box article {
   height: 5%;
   margin: 0px 21px;
   display: flex;
   align-items: center;
 }
 
-.galeria-box section{
+.galeria-box section {
   height: 14%;
 }
 
-strong{
+strong {
   font-size: 18px;
 }
 
-.galeria-box section{
+.galeria-box section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-section .shopping{
+section .shopping {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.shopping{
+.shopping {
   width: 90%;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -492,38 +487,37 @@ section .shopping{
   border-radius: 30px;
 }
 
-.shopping p{
+.shopping p {
   color: #fff;
   font-weight: 500;
 }
 
-.redes i{
+.redes i {
   border: #fff;
 }
 
-.bi-check-circle-fill{
+.bi-check-circle-fill {
   color: #3fae2a;
 }
 
-article .pod-head img{
+article .pod-head img {
   object-fit: cover;
 }
 
-.bi-star-fill{
+.bi-star-fill {
   color: #ffc100;
   padding-right: 5px;
 }
 
-.bi-star-half{
+.bi-star-half {
   color: #ffc100;
 }
 
-.galeria-box:hover{
+.galeria-box:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
   cursor: pointer;
 }
 
-.shopping:hover{
+.shopping:hover {
   background-color: #f00;
 }
-
