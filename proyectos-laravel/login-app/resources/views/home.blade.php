@@ -202,6 +202,9 @@
     </div>
         
     <div class="caja-principal">
+      <div style="margin-bottom: 30px">
+        <img style="width: 100%" src="https://images.falabella.com/v3/assets/blt422ac29cebae1d64/blt7878fcef99c303b3/655393bc4e01954980bf0b50/DESK.png?format=webp&quality=70&width=90p" alt="">
+      </div>
       <div class="galeria">
 
         <article class="galeria-box">
