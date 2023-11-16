@@ -28,7 +28,7 @@
         <ul class="nav-list">
           <li>
             <a href="#">
-                <i class="fs-4 bi bi-cart-plus-fill"></i>
+              <i class="fs-4 bi bi-handbag-fill"></i>
               <span class="link-name">Productos</span>
             </a>
   
@@ -39,15 +39,15 @@
   
           <li>
             <div class="icon-link">
-              <a href="#">
-                <i class="fs-4 bi bi-pc-display"></i>
-                <span class="link-name">Contable</span>
+              <a href="./carrito.html">
+                <i class="fs-4 bi bi-cart-plus-fill"></i>
+                <span class="link-name">Carrito</span>
               </a>
               <i class="fas fa-caret-down arrow"></i>
             </div>
   
             <ul class="sub-menu">
-              <li><a href="#" class="link-name">Contable</a></li>
+              <li><a href="./carrito.blade.php" class="link-name">Carrito</a></li>
               <li><a href="#">Block Chain</a></li>
               <li><a href="#">Cryptography</a></li>
               <li><a href="#">Animation</a></li>
