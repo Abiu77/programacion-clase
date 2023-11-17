@@ -39,7 +39,7 @@
   
           <li>
             <div class="icon-link">
-              <a href="./carrito.html">
+              <a href="carrito">
                 <i class="fs-4 bi bi-cart-plus-fill"></i>
                 <span class="link-name">Carrito</span>
               </a>
@@ -47,7 +47,7 @@
             </div>
   
             <ul class="sub-menu">
-              <li><a href="./carrito.blade.php" class="link-name">Carrito</a></li>
+              <li><a href="carrito" class="link-name">Carrito</a></li>
               <li><a href="#">Block Chain</a></li>
               <li><a href="#">Cryptography</a></li>
               <li><a href="#">Animation</a></li>
@@ -151,8 +151,7 @@
     
                 <div class="name-job">
                     <div class="name">Usuario</div>
-                    <div class="job">desconocido</div>
-                    
+                    <div class="job">desconocido</div>         
                 </div>
                 <a  href="{{ route('logout') }}"
                 onclick="event.preventDefault();
@@ -170,7 +169,7 @@
         <div class="home-content">
           <i class="fas fa-bars" style="color: #fff"></i>
           <article class="cabecera-menu">
-            <span style="font-size: 20px">TiendaOnline.com</span>
+            <span style="font-size: 20px">TuVegano.com</span>
             <span>
               <a href="https://github.com/Abiu77" target="_blank"><i style="color: #fff; font-size: 28px" class="bi bi-github"></i></a>
               <a href="https://www.youtube.com/@tutosabiu/" target="_blank"><i style="color: #fff; font-size: 28px" class="bi bi-youtube"></i></a>
