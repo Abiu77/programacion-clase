@@ -12,7 +12,7 @@ Mis proyectos, trabajos y ejercicios de clase.
 - ✅ Html
 - ✅ Css
 
-# Citas
+# Citas que un programador nunca dijo
 ```tsx
 print( 
 "Un buen desarrollador de software trabaja con disciplina y constancia desde el primer día." Omar Bradley
