@@ -61,3 +61,12 @@ CREATE TABLE detalle(
     FOREIGN KEY (idfactura) REFERENCES factura(idfactura),
     FOREIGN KEY (idproducto) REFERENCES producto(idproducto)
 );
+
+CREATE TABLE producto(
+	idproducto INT PRIMARY KEY AUTO_INCREMENT,
+    idcategoria INT,
+    nombre VARCHAR(50),
+    precio FLOAT,
+    stock INT,
+    FOREIGN KEY (idcategoria) REFERENCES categoria(idcategoria)
+);
