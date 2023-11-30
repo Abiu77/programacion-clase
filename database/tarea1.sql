@@ -59,3 +59,13 @@ CREATE TABLE modo_pago(
     FOREIGN KEY(idfactura) REFERENCES factura (idfactura),
     FOREIGN KEY(idcliente) REFERENCES cliente (idcliente)
 );
+
+CREATE TABLE detalle(
+	IDdetalle INT PRIMARY KEY AUTO_INCREMENT,
+    idfactura INT,
+    idproducto INT,
+    cantidad INT,
+    precio float,
+    FOREIGN KEY (idfactura) REFERENCES factura(idfactura),
+    FOREIGN KEY (idproducto) REFERENCES producto(idproducto)
+);
