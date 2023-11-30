@@ -27,3 +27,14 @@ CREATE TABLE catalogo(
     descripcion VARCHAR(20),
     FOREIGN KEY (idcliente) REFERENCES cliente(idcliente)
 );
+
+CREATE TABLE tienda(
+	idtienda INT PRIMARY KEY AUTO_INCREMENT,
+    idcatalogo INT,
+    idcliente INT,
+    productos VARCHAR(20),
+    categorias VARCHAR(20),
+    sucursales VARCHAR(20),
+    FOREIGN KEY (idcliente) REFERENCES cliente(idcliente),
+    FOREIGN KEY (idcatalogo) REFERENCES catalogo(idcatalogo)
+);
