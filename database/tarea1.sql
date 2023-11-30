@@ -38,3 +38,13 @@ CREATE TABLE tienda(
     FOREIGN KEY (idcliente) REFERENCES cliente(idcliente),
     FOREIGN KEY (idcatalogo) REFERENCES catalogo(idcatalogo)
 );
+
+CREATE TABLE factura(
+	idfactura INT PRIMARY KEY AUTO_INCREMENT,
+    idtienda INT,
+    ruc VARCHAR(20),
+    DNI CHAR(8),
+    numero VARCHAR(20),
+    fecha_emision DATE,
+    FOREIGN KEY (idtienda) REFERENCES tienda(idtienda)
+);
