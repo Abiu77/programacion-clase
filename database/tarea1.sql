@@ -19,3 +19,11 @@ CREATE TABLE cliente(
     contraseña VARCHAR(20),
     FOREIGN KEY (iduser) REFERENCES user(iduser)
 );
+
+CREATE TABLE catalogo(
+	idcatalogo INT PRIMARY KEY AUTO_INCREMENT,
+    idcliente INT,
+    categoria VARCHAR(20),
+    descripcion VARCHAR(20),
+    FOREIGN KEY (idcliente) REFERENCES cliente(idcliente)
+);
