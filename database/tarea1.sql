@@ -48,3 +48,14 @@ CREATE TABLE factura(
     fecha_emision DATE,
     FOREIGN KEY (idtienda) REFERENCES tienda(idtienda)
 );
+
+CREATE TABLE modo_pago(
+	idmodo_pago INT PRIMARY KEY AUTO_INCREMENT,
+    idfactura INT,
+    idcliente INT,
+    efectivo VARCHAR(20),
+    tarjeta VARCHAR(20),
+    yape VARCHAR(20),
+    FOREIGN KEY(idfactura) REFERENCES factura (idfactura),
+    FOREIGN KEY(idcliente) REFERENCES cliente (idcliente)
+);
