@@ -26,3 +26,21 @@ CREATE TABLE asistencia (
     idestudiante INT,
     FOREIGN KEY(idestudiante) REFERENCES estudiante(idestudiante)
 );
+
+CREATE TABLE conclucion_descriptiva(
+	idconclucion_descriptiva INT PRIMARY KEY,
+    idestudiante INT,
+    idpersona INT,
+    descripcion VARCHAR(85),
+    periodo VARCHAR(45),
+    FOREIGN KEY (idestudiante) REFERENCES estudiante (idestudiante)
+);
+
+CREATE TABLE notas_periodo(
+	idperiodo INT,
+    nota_periodo1 VARCHAR(45),
+    nota_periodo2 VARCHAR(45),
+    nota_periodo3 VARCHAR(45),
+    nota_periodo4 VARCHAR(45),
+    promedio_anual VARCHAR(45)
+);
