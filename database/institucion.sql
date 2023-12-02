@@ -1,6 +1,14 @@
 CREATE DATABASE institucion;
 USE institucion;
 
+CREATE TABLE institucion(
+	idinstitucion INT PRIMARY KEY AUTO_INCREMENT,
+  nombre VARCHAR(85),
+  nivel VARCHAR(45),
+  codigo_modular VARCHAR(10),
+  logo VARCHAR(75)
+);
+
 CREATE TABLE grado (
 	idgrado INT PRIMARY KEY AUTO_INCREMENT,
   grado VARCHAR(45),
