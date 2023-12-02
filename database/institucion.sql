@@ -44,3 +44,23 @@ CREATE TABLE notas_periodo(
     nota_periodo4 VARCHAR(45),
     promedio_anual VARCHAR(45)
 );
+
+CREATE TABLE curso(
+	idcurso INT PRIMARY KEY AUTO_INCREMENT,
+    nombre_curso VARCHAR(45)
+);
+
+CREATE TABLE notas(
+	idnotas INT PRIMARY KEY AUTO_INCREMENT,
+    idestudiante INT,
+    idcurso INT,
+    nota1 DECIMAL,
+    nota2 DECIMAL,
+    nota3 DECIMAL,
+    nota4 DECIMAL,
+    promedio DECIMAL,
+    idperiodo INT,
+    FOREIGN KEY (idestudiante) REFERENCES estudiante (idestudiante),
+    FOREIGN KEY (idcurso) REFERENCES curso (idcurso),
+    FOREIGN KEY (idperiodo) REFERENCES notas_periodo(idperiodo)
+);
