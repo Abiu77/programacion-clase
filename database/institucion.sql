@@ -37,7 +37,7 @@ CREATE TABLE conclucion_descriptiva(
 );
 
 CREATE TABLE notas_periodo(
-	idperiodo INT,
+	idperiodo INT PRIMARY KEY AUTO_INCREMENT,
   nota_periodo1 VARCHAR(45),
   nota_periodo2 VARCHAR(45),
   nota_periodo3 VARCHAR(45),
