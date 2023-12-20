@@ -49,7 +49,7 @@ CREATE TABLE Tratamientos (
 );
 
 CREATE TABLE Examenes (
-  id_examen INT PRIMARY KEY,
+  id_examen INT PRIMARY KEY AUTO_INCREMENT,
   nombre_examen VARCHAR(100),
   resultado VARCHAR(255),
   fecha_realizacion DATE,
