@@ -68,8 +68,6 @@ VALUES
 ('Radiografía', 'Fractura consolidada', '2023-02-09', 9),
 ('Pruebas de alergia', 'Alergia a los mariscos', '2023-02-10', 10);
 
-
-
 -- Inserciones en la tabla SalaConsulta
 INSERT INTO SalaConsulta (nombre_sala, ubicacion)
 VALUES
@@ -154,6 +152,20 @@ VALUES
 (9, 210.00, '2023-01-30'),
 (10, 170.00, '2023-01-31');
 
+-- Inserciones en la tabla ProveedoresMedicamentos
+INSERT INTO ProveedoresMedicamentos (nombre_proveedor, direccion, telefono, correo_electronico)
+VALUES
+('Farmacia A', 'Av. Principal 123, Ciudad', '123-456-7890', 'farmaciaA@email.com'),
+('Farmacia B', 'Calle Secundaria 456, Ciudad', '234-567-8901', 'farmaciaB@email.com'),
+('Farmacia C', 'Av. Nueva 789, Ciudad', '345-678-9012', 'farmaciaC@email.com'),
+('Farmacia D', 'Calle Principal 012, Ciudad', '456-789-0123', 'farmaciaD@email.com'),
+('Farmacia E', 'Av. Secundaria 345, Ciudad', '567-890-1234', 'farmaciaE@email.com'),
+('Farmacia F', 'Calle Nueva 678, Ciudad', '678-901-2345', 'farmaciaF@email.com'),
+('Farmacia G', 'Av. Principal 901, Ciudad', '789-012-3456', 'farmaciaG@email.com'),
+('Farmacia H', 'Calle Secundaria 234, Ciudad', '890-123-4567', 'farmaciaH@email.com'),
+('Farmacia I', 'Av. Nueva 567, Ciudad', '901-234-5678', 'farmaciaI@email.com'),
+('Farmacia J', 'Calle Principal 234, Ciudad', '123-234-5678', 'farmaciaJ@email.com');
+
 -- Inserciones en la tabla Medicamentos
 INSERT INTO Medicamentos (id_receta, id_tratamiento, nombre, descripcion, id_proveedor)
 VALUES
@@ -182,9 +194,72 @@ VALUES
 ('Desfibrilador', 'Desfibrilador automático externo'),
 ('Ventilador mecánico', 'Soporte respiratorio');
 
--- Inserciones en la tabla SalaConsulta
-INSERT INTO SalaConsulta (nombre_sala, ubicacion)
+-- Inserciones en la tabla EspecialidadesMedicas
+INSERT INTO EspecialidadesMedicas (nombre_especialidad)
 VALUES
-('Sala 1', 'Planta Baja'),
-('Sala 2', 'Planta Alta'),
-('S
+('Cardiología'),
+('Dermatología'),
+('Pediatría'),
+('Ginecología'),
+('Ortopedia'),
+('Oftalmología'),
+('Neurología'),
+('Endocrinología'),
+('Urología'),
+('Psiquiatría');
+
+-- Inserciones en la tabla Enfermeros
+INSERT INTO Enfermeros (nombre, apellido, telefono, correo_electronico)
+VALUES
+('María', 'González', '567-890-1234', 'maria.gonzalez@email.com'),
+('Pedro', 'Sánchez', '678-901-2345', 'pedro.sanchez@email.com'),
+('Elena', 'Martínez', '789-012-3456', 'elena.martinez@email.com'),
+('Luis', 'Fernández', '890-123-4567', 'luis.fernandez@email.com'),
+('Sofía', 'López', '901-234-5678', 'sofia.lopez@email.com'),
+('Carlos', 'Díaz', '123-234-5678', 'carlos.diaz@email.com'),
+('Ana', 'Ramírez', '234-567-8901', 'ana.ramirez@email.com'),
+('Miguel', 'Hernández', '345-678-9012', 'miguel.hernandez@email.com'),
+('Laura', 'Gómez', '456-789-0123', 'laura.gomez@email.com'),
+('Juan', 'Pérez', '567-890-1234', 'juan.perez@email.com');
+
+-- Relación entre EquiposMedicos y SalaConsulta (muchos a muchos)
+INSERT INTO EquiposSalaConsulta (id_equipo_medico, id_sala_consulta)
+VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10);
+
+-- Relación entre Doctores y EspecialidadesMedicas (muchos a muchos)
+INSERT INTO DoctoresEspecialidades (id_doctor, id_especialidad)
+VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10);
+
+-- Relación entre Enfermeros y SalaConsulta (muchos a muchos)
+INSERT INTO EnfermerosSalaConsulta (id_enfermero, id_sala_consulta)
+VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10);

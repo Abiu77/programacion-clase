@@ -1,8 +1,8 @@
 -- Crear la base de datos
-CREATE DATABASE IF NOT EXISTS clinicaAbiu;
+CREATE DATABASE IF NOT EXISTS clinica_abiu;
 
 -- Seleccionar la base de datos
-USE clinicaAbiu;
+USE clinica_abiu;
 
 -- Crear la tabla Paciente
 CREATE TABLE Paciente (
@@ -10,7 +10,7 @@ CREATE TABLE Paciente (
   nombre VARCHAR(50) NOT NULL,
   apellido VARCHAR(50) NOT NULL,
   fecha_nacimiento DATE,
-  genero ENUM('Masculino', 'Femenino', 'Otro'),
+  genero ENUM('Masculino', 'Femenino'),
   direccion VARCHAR(100),
   telefono VARCHAR(15),
   correo_electronico VARCHAR(50)
