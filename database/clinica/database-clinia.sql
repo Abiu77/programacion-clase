@@ -157,14 +157,6 @@ CREATE TABLE Enfermeros (
     correo_electronico VARCHAR(50)
 );
 
--- Crear la tabla Administrativos
-CREATE TABLE Administrativos (
-    id_administrativo INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(50) NOT NULL,
-    apellido VARCHAR(50) NOT NULL,
-    telefono VARCHAR(15),
-    correo_electronico VARCHAR(50)
-);
 
 -- Relaciones adicionales
 
