@@ -1,7 +1,12 @@
-const bodyChildren = document.body.children;
-const route = document.location.href;
-
-bodyChildren[0].innerText = 'jejej';
-bodyChildren[1].children[0].innerText = route;
+document.body.style.backgroundColor = 'pink';
 
 
+const animation = () => {
+  if (document.body.style.backgroundColor === 'pink') {
+    document.body.style.backgroundColor = 'skyblue';
+  } else {
+    document.body.style.backgroundColor = 'orange';
+  }
+};
+
+setInterval(animation, 1000);
