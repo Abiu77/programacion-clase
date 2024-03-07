@@ -1,18 +1,23 @@
-/* Variables CSS (custom properties) */
+/* selectores 
 
-:root {
-  --color: blue;
-}
+selectores {
+  propiedad1 : valor1;
+  propiedad2 : valor2;
+  }
+
+1. Selectores simples (una palabra)
+    h1 {}
+2. Selectores compuestos (más de una palabra)
+    h1 span {}
+3. Selectores con operadores
+    h1 + span {}
+
+*/
 
 h1 {
-  /* color: red; */
-  color: var(--color)
-}
-
-p {
-  color: var(--color)
-}
-
-ul {
   color: red;
+}
+
+#title {
+  color: blue;
 }
