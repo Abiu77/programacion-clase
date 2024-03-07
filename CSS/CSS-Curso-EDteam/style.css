@@ -1,5 +1,18 @@
-/* Estilos de los titulos */
+/* Variables CSS (custom properties) */
+
+:root {
+  --color: blue;
+}
+
 h1 {
-  color: rgb(9, 255, 0);
-  background-color: #000;
+  /* color: red; */
+  color: var(--color)
+}
+
+p {
+  color: var(--color)
+}
+
+ul {
+  color: red;
 }
