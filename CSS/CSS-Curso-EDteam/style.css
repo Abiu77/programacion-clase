@@ -1,36 +1,16 @@
-/* selectores 
+/* Selectores compuestos: agrupados */
 
-selectores {
-  propiedad1 : valor1;
-  propiedad2 : valor2;
-  }
-
-1. Selectores simples (una palabra)
-    h1 {}
-2. Selectores compuestos (más de una palabra)
-    h1 span {}
-3. Selectores con operadores
-    h1 + span {}
-
-*/
-
+h1,
 p {
-  color: red;
-}
-
-.title {
   color: green;
 }
 
-.description {
-  color: blue;
+/* Selectores compuestos: combinados */
+h1.title#title {
+  color: red;
 }
 
-.button {
-  display: inline-block;
-  padding: .75em 2em;
-  background-color: steelblue;
-  color: white;
-  border-radius: .25em;
-  cursor: pointer;
+/* Selectores compuestos: descendientes */
+div p strong {
+  color: #000;
 }
