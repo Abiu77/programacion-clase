@@ -1,16 +1,29 @@
 /* Selectores compuestos: agrupados */
 
-h1,
-p {
-  color: green;
-}
-
 /* Selectores compuestos: combinados */
 h1.title#title {
-  color: red;
+  color: rgb(0, 255, 42);
 }
 
-/* Selectores compuestos: descendientes */
-div p strong {
-  color: #000;
+/* Selectores con Operadores */
+
+* {
+  color: orange;
+  background-color: rgb(255, 0, 0);
+}
+
+p>strong {
+  color: rgb(72, 255, 0);
+}
+
+p+div {
+  border: solid 1px white;
+}
+
+p div {
+  border: solid 1px white;
+}
+
+h1~p {
+  background: green;
 }
