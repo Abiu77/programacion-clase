@@ -9,7 +9,6 @@ h1.title#title {
 
 * {
   color: orange;
-  background-color: rgb(255, 0, 0);
 }
 
 p>strong {
@@ -26,4 +25,31 @@ p div {
 
 h1~p {
   background: green;
+}
+
+/* Selectores de atributo.
+Usan []
+[attr = "value"]
+[attr]
+*/
+
+[type="text"] {
+  border: 1px solid red;
+  background: yellow;
+}
+
+[type="number"] {
+  border: 1px solid green;
+}
+
+[required] {
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+[value="Enviar"] {
+  background-color: red;
+  border: 2px solid #000;
+  font-size: medium;
+  font-weight: bold;
 }
