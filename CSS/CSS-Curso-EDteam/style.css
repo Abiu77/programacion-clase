@@ -53,3 +53,13 @@ Usan []
   font-size: medium;
   font-weight: bold;
 }
+
+/* Comienza con [attr^="value"] */
+[type^="sub"] {
+  background-color: orange;
+}
+
+a[href^="http://"] {
+  color: red;
+  border-bottom: 1px dashed red;
+}
