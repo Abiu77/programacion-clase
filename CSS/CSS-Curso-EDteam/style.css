@@ -74,3 +74,19 @@ a[href$=".pe"] {
 a[href*="team"] {
   color: #000;
 }
+
+/* 
+1. EspecifiCIdad
+2. Cascada
+3. Herencia
+
+Estos conceptos nos ayudan a entender como funciona CSS, como resuelve los
+conflictos y como se definen las arquitecturas 
+
+arquitectura CSS:
+
+* SMACSS
+* OOCSS
+* ITCSS
+
+*/
