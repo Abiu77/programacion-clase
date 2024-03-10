@@ -68,3 +68,9 @@ a[href^="http://"] {
 a[href$=".pe"] {
   background-color: blueviolet;
 }
+
+/* Contiene [attr*="value"] */
+
+a[href*="team"] {
+  color: #000;
+}
