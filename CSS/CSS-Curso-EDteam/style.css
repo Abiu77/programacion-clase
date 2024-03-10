@@ -56,10 +56,15 @@ Usan []
 
 /* Comienza con [attr^="value"] */
 [type^="sub"] {
-  background-color: orange;
+  background-color: yellow;
 }
 
 a[href^="http://"] {
   color: red;
-  border-bottom: 1px dashed red;
+  border-bottom: 2px dashed red;
+}
+
+/* Termina con [attr$="value"] */
+a[href$=".pe"] {
+  background-color: blueviolet;
 }
