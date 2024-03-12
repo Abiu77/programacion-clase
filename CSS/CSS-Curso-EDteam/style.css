@@ -19,33 +19,50 @@ FORMULA PARA CALCULAR LA ESPECIFICIDAD
   Estilos en linea :                    1000
 
 */
-
 h1 {
   color: red;
-  /* 1 */
+  color: yellow;
 }
 
 .title {
-  color: blue;
-  /* 10 */
+  color: cadetblue !important;
 }
 
-h1.title {
-  color: brown;
-  /* 11 */
+h1 {
+  color: blue !important;
 }
 
-h1#title {
+/* Herencia 
+    inherit
+    initial
+*/
+
+p {
   color: green;
-  /*  101 */
 }
 
-h1.title#title {
-  color: aqua;
-  /* 111 */
+a {
+  color: inherit;
 }
 
-body>h1.title#title {
-  color: chartreuse;
-  /* 112 */
+body {
+  /* color: blue; */
+}
+
+h2 {
+  color: #f00;
+}
+
+ul {
+  color: #0f0;
+}
+
+.last {
+  color: brown;
+}
+
+span {
+  font-size: initial;
+  font-weight: initial;
+  color: initial;
 }
