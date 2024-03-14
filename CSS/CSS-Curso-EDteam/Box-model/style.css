@@ -1,6 +1,29 @@
 /* Box model
 
 Layout model  
+  Box model
+  Position
+  FlexBox
+  CSS grid
 
+Box model (modelo de caja)
+Todos los elementos HTML son rectangulos
 
+Dos tipos de cajas (o elementos)
+* Bloque
+    * Ocupa todo el espacio horizontal disponible
+    * Crean una linea nueva
+    * Tienen ancho (width) y alto (height)
+* Inline (en linea)
 */
+
+h1 {
+  background: yellow;
+  width: 200px;
+  height: 100px;
+}
+
+p {
+  background: pink;
+  width: 50%;
+}
