@@ -15,15 +15,28 @@ Dos tipos de cajas (o elementos)
     * Crean una linea nueva
     * Tienen ancho (width) y alto (height)
 * Inline (en linea)
+    * Ocupan solo el espacio necesario para su contenido.
+    * No tienen dimensiones (a excepcion de las imagenes)
+
+* Unidades de longitud (medida de tamano)
+    * Pixeles (px)
+    * em (% del tamano de fuente de letra actual)
+    * rem (raiz) (% del tamano de fuente o letra de body)
+
 */
 
 h1 {
   background: yellow;
-  width: 200px;
+  /* width: 18rem;
   height: 100px;
+  font-size: 2rem; */
 }
 
 p {
   background: pink;
-  width: 50%;
+  /* width: 8rem; */
+}
+
+span {
+  background: yellow;
 }
