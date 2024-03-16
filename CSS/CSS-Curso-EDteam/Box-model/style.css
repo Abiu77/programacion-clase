@@ -40,3 +40,20 @@ p {
 span {
   background: yellow;
 }
+
+/* Propiedades display
+    Block
+    inline
+    inline-block
+    none
+    * flex
+    * grid
+*/
+
+span {
+  display: block;
+}
+
+p {
+  display: inline;
+}
