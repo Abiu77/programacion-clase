@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Modulo 5-contenido embebido</title>
+  <style>
+  </style>
 </head>
 <body>
   <h1>Hola EDteam</h1>
@@ -31,15 +33,24 @@
 
     -->
   <!-- en HTML las imagenes se insertan con la etiqueta <img src="" alt=""> -->
-  <img src="./img/disneyplus_donald.jpeg" alt="Imagen de la cara del pato Donal" width="500px">
+  <img src="./img/disneyplus_donald.jpeg" alt="Imagen de la cara del pato Donal" width="500px" title="este es un pato">
   <img src="https://i.gifer.com/18Pe.gif" alt="Animacion del pato Donal caminando y contando billete">
 
   <!-- Picture -->
+
   <picture>
     <source srcset="/img/disneyplus_donald.jpeg" width="500px">
     <source srcset="/img/disneyplus_donald.png">
     <img src="/img/disneyplus_donald.webp" alt="cara del pato donal">
     <p>no admite tu navegador</p>
   </picture>
+
+  <!-- Figure -->
+
+  <figure>
+    <img src="/img/disneyplus_donald.jpeg" width="300px" alt="">
+    <figcaption>Imagen del pato donal para EDteam</figcaption>
+  </figure>
+
 </body>
 </html>
