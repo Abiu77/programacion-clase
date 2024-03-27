@@ -127,7 +127,82 @@
     </tfoot>
   </table>
 
-  <!-- Agrupar celdas -->
+  <!-- Agrupar celdas 
+  
+      se usan los atributos
+
+      colspan=n  (agrupar columnas)
+      rowspan=n  (agrupar filas)
+
+      donde n es la cantidad de columnas o filas que se van a combinar o agrupar.
+
+  -->
+
+  <h2>Agrupar celdas</h2>
+
+  <table>
+    <tr>
+      <td></td>
+      <td>Lunes</td>
+      <td>Martes</td>
+      <td>Miercoles</td>
+    </tr>
+    <tr>
+      <td>Ingresos</td>
+      <td>100</td>
+      <td>200</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Egresos</td>
+      <td>75</td>
+      <td>220</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Saldo</td>
+      <td>25</td>
+      <td>-20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td colspan="3">Final</td>
+      <td>5</td>
+    </tr>
+  </table>
+
+  <h2>Agrupar celdas parte 2</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">HTML</td>
+        <td colspan="2">CSS</td>
+
+        <td rowspan="2">JavaScript</td>
+      </tr>
+      <tr>
+
+        <td>PHP</td>
+        <td>Photoshop</td>
+
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total de curso</td>
+
+        <td>5</td>
+      </tr>
+    </tfoot>
+  </table>
 
 </body>
 </html>
