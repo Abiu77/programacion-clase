@@ -13,6 +13,18 @@
       border: 1px solid #000;
       padding: .25em .5em;
     }
+
+    tfoot {
+      background-color: yellow;
+    }
+
+    thead {
+      background-color: orange;
+    }
+
+    tbody {
+      background-color: aqua;
+    }
   </style>
 </head>
 <body>
@@ -56,7 +68,63 @@
       <td></td>
       <td>5</td>
     </tr>
+  </table>
 
+  <!-- 
+    Estructura completa de una tabla
+
+    <table>
+      <caption></caption>           --- > es la descripcion de la tabla
+      <th>                          --- > t head (la cabecera)
+        <td></td>
+        <td></td>
+      </th>
+      <tbody>                       --- > t body (el cuerpo)
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+        <td></td>
+        <td></td>
+      <tfoot>                      --- > t foot (pie de la pagina)
+      </tfoot>
+    </table>
+
+   -->
+
+  <h2>Mi horario de estudio</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>Photoshop</td>
+        <td>JavaScript</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>PHP</td>
+        <td>CSS</td>
+        <td>HTML</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total de curso</td>
+        <td></td>
+        <td></td>
+        <td>5</td>
+      </tr>
+    </tfoot>
   </table>
 
 </body>
