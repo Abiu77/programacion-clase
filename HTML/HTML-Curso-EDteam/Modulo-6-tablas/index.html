@@ -21,10 +21,6 @@
     thead {
       background-color: orange;
     }
-
-    tbody {
-      background-color: aqua;
-    }
   </style>
 </head>
 <body>
@@ -202,6 +198,46 @@
         <td>5</td>
       </tr>
     </tfoot>
+  </table>
+
+  <!-- colgroup -->
+
+  <h2>Colgroup</h2>
+
+  <table>
+    <colgroup>
+      <col span="3" style="background: orange;">
+
+      <col style="background-color: yellow;">
+    </colgroup>
+    <tr>
+      <td></td>
+      <td>Lunes</td>
+      <td>Martes</td>
+      <td>Miercoles</td>
+    </tr>
+    <tr>
+      <td>Ingresos</td>
+      <td>100</td>
+      <td>200</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Egresos</td>
+      <td>75</td>
+      <td>220</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Saldo</td>
+      <td>25</td>
+      <td>-20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td colspan="3">Final</td>
+      <td>5</td>
+    </tr>
   </table>
 
 </body>
