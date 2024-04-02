@@ -95,7 +95,7 @@
   <form action="/recibido.html">
     <fieldset>
       <legend>Que quieres estudiar?</legend>
-      <label><input type="checkbox" name="cursos">
+      <label><input type="checkbox" name="cursos" checked>
         HTML
       </label>
       <label><input type="checkbox" name="cursos">
@@ -107,7 +107,7 @@
     </fieldset>
   </form>
 
-  <form>
+  <form autocomplete="on">
     <fieldset>
       <legend>Cual es tu sexo?</legend>
       <label>
@@ -115,9 +115,10 @@
         Hombre
       </label>
       <label>
-        <input type="radio" name="sexo">
+        <input type="radio" name="sexo" required>
         Mujer
       </label>
+      <input type="submit">
     </fieldset>
   </form>
 
@@ -126,7 +127,7 @@
       <optgroup label="Sudamerica">
         <option value="pe">Peru</option>
         <option value="ar">Argentina</option>
-        <option value="co">Colombia</option>
+        <option value="co" selected>Colombia</option>
       </optgroup>
       <optgroup label="Norteamerica">
         <option value="usa">Estados unidos</option>
@@ -137,6 +138,8 @@
 
   <label for="comment">Pon un comentario</label>
   <textarea name="" id="comment" cols="30" rows="10"></textarea>
+
+  <!-- Atributos de formulario -->
 
 </body>
 </html>
