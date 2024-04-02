@@ -8,6 +8,11 @@
     div {
       margin-bottom: 10px;
     }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -23,7 +28,7 @@
     <button>enviar</button>
   </form> -->
 
-  <form action="/recibido.html">
+  <!-- <form action="/recibido.html">
     <fieldset>
       <legend>Tus datos</legend>
       <div>
@@ -48,13 +53,40 @@
           <input type="text" placeholder="Plato favorito">
         </label>
       </div>
-    </fieldset>
+    </fieldset> -->
 
-    <!-- 2 modos de enviar un formulario
+  <!-- 2 modos de enviar un formulario
     1. buttom
     2. <input type="submit"> -->
-    <!-- <button>enviar</button> -->
-    <input type="submit" value="enviar">
+  <!-- <button>enviar</button> -->
+  <!-- <input type="submit" value="enviar">
+  </form> -->
+  <form action="/recibido.html">
+    <label>Text
+      <input type="text">
+    </label>
+    <label>Number
+      <input type="number">
+    </label>
+    <label>Calendar
+      <input type="date">
+    </label>
+    <label>Email
+      <input type="email" required>
+    </label>
+    <label>Telefono
+      <input type="tel">
+    </label>
+    <input type="submit">
+    <label>
+      <input type="color">
+    </label>
+    <label>
+      <input type="password">
+    </label>
+    <label>
+      <input type="range" min="10" max="100" step="15">
+    </label>
   </form>
 </body>
 </html>
