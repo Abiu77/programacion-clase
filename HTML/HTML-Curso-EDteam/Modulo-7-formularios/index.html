@@ -11,9 +11,9 @@
   </style>
 </head>
 <body>
-  <h1>Modulo 7 - Formularios</h1>
+  <!-- <h1>Modulo 7 - Formularios</h1>
+    Estructura basica de un formulario
   <form action="/recibido.html">
-    <label for="">ajajja</label>
     <div>
       <input type="text" placeholder="Users">
     </div>
@@ -21,6 +21,40 @@
       <input type="text" placeholder="Password">
     </div>
     <button>enviar</button>
+  </form> -->
+
+  <form action="/recibido.html">
+    <fieldset>
+      <legend>Tus datos</legend>
+      <div>
+        <label for="username">Usuario</label>
+        <input type="text" placeholder="Users" id="username" value="Abiu">
+      </div>
+      <div>
+        <label> Password
+          <input type="text" placeholder="Password">
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Tus gustos</legend>
+      <div>
+        <label for="music">Musica favorita</label>
+        <input type="text" placeholder="Musica favorita" id="music" value="Regeton">
+      </div>
+      <div>
+        <label>Plato favorito
+          <input type="text" placeholder="Plato favorito">
+        </label>
+      </div>
+    </fieldset>
+
+    <!-- 2 modos de enviar un formulario
+    1. buttom
+    2. <input type="submit"> -->
+    <!-- <button>enviar</button> -->
+    <input type="submit" value="enviar">
   </form>
 </body>
 </html>
