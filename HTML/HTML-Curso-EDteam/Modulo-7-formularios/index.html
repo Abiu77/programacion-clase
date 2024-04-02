@@ -13,6 +13,10 @@
       display: block;
       margin-bottom: 10px;
     }
+
+    fieldset {
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
@@ -61,7 +65,7 @@
   <!-- <button>enviar</button> -->
   <!-- <input type="submit" value="enviar">
   </form> -->
-  <form action="/recibido.html">
+  <!-- <form action="/recibido.html">
     <label>Text
       <input type="text">
     </label>
@@ -87,6 +91,52 @@
     <label>
       <input type="range" min="10" max="100" step="15">
     </label>
+  </form> -->
+  <form action="/recibido.html">
+    <fieldset>
+      <legend>Que quieres estudiar?</legend>
+      <label><input type="checkbox" name="cursos">
+        HTML
+      </label>
+      <label><input type="checkbox" name="cursos">
+        CSS
+      </label>
+      <label><input type="checkbox" name="cursos">
+        JavaScript
+      </label>
+    </fieldset>
   </form>
+
+  <form>
+    <fieldset>
+      <legend>Cual es tu sexo?</legend>
+      <label>
+        <input type="radio" name="sexo">
+        Hombre
+      </label>
+      <label>
+        <input type="radio" name="sexo">
+        Mujer
+      </label>
+    </fieldset>
+  </form>
+
+  <div>
+    <select name="pais" id="">
+      <optgroup label="Sudamerica">
+        <option value="pe">Peru</option>
+        <option value="ar">Argentina</option>
+        <option value="co">Colombia</option>
+      </optgroup>
+      <optgroup label="Norteamerica">
+        <option value="usa">Estados unidos</option>
+        <option value="ca">Canada</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <label for="comment">Pon un comentario</label>
+  <textarea name="" id="comment" cols="30" rows="10"></textarea>
+
 </body>
 </html>
