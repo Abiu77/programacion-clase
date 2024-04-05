@@ -103,3 +103,8 @@ img {
 .box-2 {
   margin-top: -50px;
 }
+
+/* border */
+.box {
+  border: 5px dashed #000;
+}
