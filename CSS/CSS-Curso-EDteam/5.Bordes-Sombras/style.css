@@ -83,3 +83,12 @@ h1 {
   transform: scaleY(.65);
   margin-left: 170px;
 }
+
+/* Propiedad outline */
+.box-4 {
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--background);
+  border: 10px solid #000;
+  outline: 10px solid red;
+}
