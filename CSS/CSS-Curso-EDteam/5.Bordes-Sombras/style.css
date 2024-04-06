@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --width: 400px;
+  --height: 250px;
+  --background: yellow;
+}
+
 .box {
   width: 400px;
   height: 250px;
@@ -27,4 +33,53 @@ h1 {
   display: inline-block;
   border: 15px solid;
   border-color: red blue;
+}
+
+/* border-radius */
+
+:root {
+  --br: 50px;
+}
+
+.box-2 {
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--background);
+  /* border: 2px solid; */
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 110px; */
+
+  /* border-radius: x y; */
+  /* border-top-left-radius: 100px 200px;
+  border-top-right-radius: 50px 20px;
+  border-bottom-left-radius: 80px 120px;
+  border-bottom-right-radius: 200px 120px; */
+
+  /* border radius: x x x x / y y y y */
+  /* border-radius: 100px 50px 80px 200px / 200px 20px 120px 120px; */
+  /* border-radius: 100px / 100px; */
+  border-radius: 70px / 100px;
+  background: red;
+  padding: 0.1px;
+}
+
+.box-3 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.play {
+  height: 150px;
+  width: 150px;
+  /* background: #fff; */
+  margin: 50px auto;
+  border: 75px solid;
+  border-color: transparent;
+  border-left-color: #fff;
+  transform: scaleY(.65);
+  margin-left: 170px;
 }
