@@ -92,3 +92,25 @@ h1 {
   border: 10px solid #000;
   outline: 10px solid red;
 }
+
+/* 
+    Propiedades Box-shadow
+
+      box-shadow: h-offset v-offset blur spread color | inset;
+
+*/
+body {
+  background: #222;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  margin: 5;
+  border-radius: 50%;
+  box-shadow: -15px -15px 20px 0 rgb(0, 0, 0, .5) inset,
+    5px 5px 5px 0 rgb(255, 255, 255, .3) inset,
+    5px 5px 15px 0 rgb(255, 255, 255, .1);
+  /* box-shadow: 400px 0 0px 30px blue, 800px 0, 200px 200px, 600px 200px, 400px 400px; */
+}
