@@ -1,0 +1,25 @@
+/* Pseudaclases 
+    Permiten seleccionar elementos segun su estado o alguna condicion.
+    Se indica con dos puntos :
+*/
+
+/* :hover{
+  background: yellow;
+}
+
+h1:hover {
+  background: yellow;
+}
+
+h1 :hover {
+  background-color: yellow;
+} */
+
+div {
+  /* elemento HTML */
+  --color: pink;
+}
+
+h1 {
+  background-color: var(--color);
+}
