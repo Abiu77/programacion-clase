@@ -108,3 +108,21 @@ img {
 .box {
   border: 5px dashed #000;
 }
+
+/* Box sizing */
+.box {
+  box-sizing: border-box;
+  height: 200px;
+  width: 300px;
+}
+
+.box-4 {
+  background: crimson;
+  color: #fff;
+  box-sizing: border-box;
+  width: 200px;
+  height: 500px;
+  padding: 20px;
+  border: 10px solid #000;
+  margin: 50px;
+}

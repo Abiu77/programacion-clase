@@ -62,26 +62,46 @@ a:active {
   text-decoration: none;
   font-size: 100px;
 } */
-
-/* a {
-  text-decoration: none;
-}
-
-
-
-a:hover {
-  color: green;
-  background-color: rgb(205, 241, 150);
-  text-decoration: underline;
-}
-
-a:active {
-  background-color: green;
-  color: greenyellow;
-  text-decoration: none;
-} */
-
-
 a:visited {
   background-color: yellow;
+}
+
+/* :target :not :empty  */
+
+.secreto {
+  display: none;
+}
+
+div:target {
+  display: block;
+}
+
+.ocultar:target {
+  display: none;
+}
+
+p {
+  color: red;
+}
+
+p:not(.p2) {
+  color: blueviolet;
+}
+
+p {
+  margin: 0;
+}
+
+p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+div:not(:empty) {
+  background: yellow;
+  padding: 1em;
+  width: 200px;
+}
+
+div:empty {
+  padding: 0;
 }
