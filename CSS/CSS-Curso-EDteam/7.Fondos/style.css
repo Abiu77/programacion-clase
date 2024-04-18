@@ -6,8 +6,20 @@ background: red;
 background-color: red;
 
 */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color: yellow;
-  background-image: url(EDteam-logo-alt.png);
+  background-image: url(https://images.unsplash.com/photo-1713283391486-b92cda2562e8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* background-size background-position */
+body {
+  /* background-size: 800px; */
 }
