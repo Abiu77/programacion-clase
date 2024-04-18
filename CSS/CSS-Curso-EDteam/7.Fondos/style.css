@@ -1,0 +1,13 @@
+/* fondos (background)
+
+background es un shorthand
+
+background: red;
+background-color: red;
+
+*/
+body {
+  background-color: yellow;
+  background-image: url(EDteam-logo-alt.png);
+  background-repeat: no-repeat;
+}
