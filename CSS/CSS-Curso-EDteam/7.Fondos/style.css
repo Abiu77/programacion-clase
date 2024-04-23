@@ -6,22 +6,39 @@ background: red;
 background-color: red;
 
 */
-html,
+/* html,
 body {
   height: 100%;
   margin: 0;
+} */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-body {
+/* body {
   background-color: #eee;
   background-image: url(EDteam-logo-alt.png);
   background-repeat: no-repeat;
   background-size: 300px;
-  /* background-position: left center right | top center bottom; */
-  background-position: right 200px bottom 500px;
-}
+  background-position: right 0px bottom 0px;
+} */
 
-/* background-size background-position */
-body {
-  /* background-size: 800px; */
+/* background-clip background-origin */
+
+.box {
+  width: 600px;
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1604691063892-0b4e9e36d28b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  margin: 100px auto;
+  border: 24px solid black;
+  border-color: rgb(29, 17, 17) rgb(87, 38, 38);
+  /* background-clip: content-box; */
+  color: #fff;
+  padding: 50px;
+  box-shadow: 0px 10px 30px 1px #4e4e4e;
+  background-origin: content-box;
 }
