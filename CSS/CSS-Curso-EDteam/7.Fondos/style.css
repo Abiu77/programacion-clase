@@ -46,7 +46,7 @@ body {
   background-attachment: fixed;
 } */
 
-
+/* 
 .box {
   width: 600px;
   height: 400px;
@@ -61,4 +61,12 @@ body {
   background-attachment: fixed;
   background-size: 1500px;
   height: 1000px;
+} */
+
+body {
+  height: 100vh;
+  background-image: url(playa.jpg), url(carretera.jpg), url(faro.jpg);
+  background-size: 30%, 40%, 25%;
+  background-position: 0 0, center center, right bottom;
+  background-repeat: no-repeat;
 }
