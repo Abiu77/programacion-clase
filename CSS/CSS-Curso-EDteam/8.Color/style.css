@@ -21,3 +21,10 @@ p {
 a {
   color: currentColor;
 }
+
+/* color keywords */
+
+body {
+  background-color: rebeccapurple;
+  color: transparent;
+}
