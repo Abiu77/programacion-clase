@@ -63,10 +63,21 @@ body {
   height: 1000px;
 } */
 
-body {
+/* body {
   height: 100vh;
   background-image: url(playa.jpg), url(carretera.jpg), url(faro.jpg);
   background-size: 30%, 40%, 25%;
   background-position: 0 0, center center, right bottom;
   background-repeat: no-repeat;
+  background-color: yellow;
+} */
+
+/* shorthan background
+
+background: image position / size repeat attachment origin clip;
+*/
+
+body {
+  height: 100vh;
+  background: url(faro.jpg) 0 0 / 20% no-repeat, url(carretera.jpg) center center / 30% no-repeat, url(faro.jpg) right bottom / 30% no-repeat, yellow;
 }
