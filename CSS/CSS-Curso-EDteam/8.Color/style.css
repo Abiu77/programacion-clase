@@ -1,0 +1,23 @@
+/* color
+frente (color) y fondo (background)
+
+*/
+
+body {
+  background-color: red;
+  color: white;
+}
+
+h1 {
+  border: 1px solid;
+  box-shadow: 5px 5px 5px;
+  background-color: yellow;
+}
+
+p {
+  color: lime;
+}
+
+a {
+  color: currentColor;
+}
