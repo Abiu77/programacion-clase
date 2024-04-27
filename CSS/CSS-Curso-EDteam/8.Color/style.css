@@ -28,3 +28,46 @@ body {
   background-color: rebeccapurple;
   color: transparent;
 }
+
+/* Modo de color  RBG
+    
+    Existen dos modos de color basicos
+      Aditivos (la suma da blamco)
+          RGB (red, green, blue)
+      Sustractivo (la suma da negro)
+          CMYK (cyan, magenta, yellow, black)
+
+    en el modo RGB tenemos 8 bits de color, significa que cada canal tiene
+    2^8 variaciones posibles (256)  que comienzaan en 0 y termina en 255.
+
+    R (255) G (255) B (255) --> 16.5 millones de colores
+
+    rgb(255, 255, 255)
+*/
+
+body {
+  background-color: rgb(255, 0, 0);
+  /* R */
+  background-color: rgb(0, 255, 0);
+  /* G */
+  background-color: rgb(0, 0, 255);
+  /* B */
+  background-color: rgb(0, 255, 255);
+  /* C */
+  background-color: rgb(255, 255, 0);
+  /* Y */
+  background-color: rgb(255, 0, 255);
+  /* M */
+  background-color: rgb(0, 0, 0);
+  /* K */
+  background-color: rgb(255, 255, 255);
+  /* W */
+  background-color: rgb(128, 128, 128);
+  background-color: rgb(128, 128, 200);
+  background-color: rgb(128, 200, 128);
+  background-color: rgb(0, 128, 128);
+  background-color: rgb(160, 160, 160);
+  background-color: rgb(128, 128, 0);
+
+  background-color: rgba(255, 0, 0, .3);
+}
