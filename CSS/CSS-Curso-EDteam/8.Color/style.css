@@ -3,12 +3,12 @@ frente (color) y fondo (background)
 
 */
 
-body {
-  /* background-color: red;
-  color: white; */
-}
+/* body {
+  background-color: red;
+  color: white;
+} */
 
-h1 {
+/* h1 {
   border: 1px solid;
   box-shadow: 5px 5px 5px;
   background-color: yellow;
@@ -20,14 +20,14 @@ p {
 
 a {
   color: currentColor;
-}
+} */
 
 /* color keywords */
 
-body {
-  /* background-color: rebeccapurple;
-  color: transparent; */
-}
+/* body {
+  background-color: rebeccapurple;
+  color: transparent;
+} */
 
 /* Modo de color  RBG
     
@@ -45,8 +45,8 @@ body {
     rgb(255, 255, 255)
 */
 
-body {
-  /* background-color: rgb(255, 0, 0);
+/* body {
+  background-color: rgb(255, 0, 0);
   background-color: rgb(0, 255, 0);
   background-color: rgb(0, 0, 255);
   background-color: rgb(0, 255, 255);
@@ -60,8 +60,8 @@ body {
   background-color: rgb(0, 128, 128);
   background-color: rgb(160, 160, 160);
   background-color: rgb(128, 128, 0);
-  background-color: rgba(255, 0, 0, .3); */
-}
+  background-color: rgba(255, 0, 0, .3);
+} */
 
 /* Notacion hexadecimal 
 
@@ -105,6 +105,19 @@ body {
 
 */
 
-body {
+/* body {
   background-color: hsla(60, 100%, 20%, .8);
+} */
+
+/* Degradados lineales 
+
+    background-image: linear-gradient(color1, color2, color3);
+    background-image: linear-gradient([angle], color1 stop, color2 stop, color3 stop);
+*/
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(yellow 25%, red 25%, red 60%, green 60%);
+  background-image: linear-gradient(to bottom right, yellow, red);
+  /* background-repeat: no-repeat; */
 }
