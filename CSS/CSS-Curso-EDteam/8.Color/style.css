@@ -4,8 +4,8 @@ frente (color) y fondo (background)
 */
 
 body {
-  background-color: red;
-  color: white;
+  /* background-color: red;
+  color: white; */
 }
 
 h1 {
@@ -25,8 +25,8 @@ a {
 /* color keywords */
 
 body {
-  background-color: rebeccapurple;
-  color: transparent;
+  /* background-color: rebeccapurple;
+  color: transparent; */
 }
 
 /* Modo de color  RBG
@@ -71,8 +71,8 @@ body {
 */
 
 body {
-  background-color: #ff0000;
-  background-color: #0F08;
+  /* background-color: #ff0000;
+  background-color: #0F08; */
   /* background-color: rgb(0, 0, 255); */
   /* background-color: #00FFFF; */
   /* background-color: rgb(255, 255, 0); */
@@ -86,4 +86,25 @@ body {
   /* background-color: rgb(160, 160, 160); */
   /* background-color: rgb(128, 128, 0); */
   /* background-color: rgba(255, 0, 0, .3); */
+}
+
+/* Modo de color HSL
+
+  Hue (tono, de 0 a 360 grados)
+      Circulo cromatico
+      0   rojo
+      60  amarillo
+      120 verde
+      180 cyan
+      240 azul
+      300 magenta
+      360 rojo
+
+  Saturation (intensidad de color, de 0 es gris a 100% que es color puro)
+  Light (luz, de 0 que es negro a 100% que es blanco)
+
+*/
+
+body {
+  background-color: hsla(60, 100%, 20%, .8);
 }
