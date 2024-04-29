@@ -46,28 +46,44 @@ body {
 */
 
 body {
-  background-color: rgb(255, 0, 0);
-  /* R */
+  /* background-color: rgb(255, 0, 0);
   background-color: rgb(0, 255, 0);
-  /* G */
   background-color: rgb(0, 0, 255);
-  /* B */
   background-color: rgb(0, 255, 255);
-  /* C */
   background-color: rgb(255, 255, 0);
-  /* Y */
   background-color: rgb(255, 0, 255);
-  /* M */
   background-color: rgb(0, 0, 0);
-  /* K */
   background-color: rgb(255, 255, 255);
-  /* W */
   background-color: rgb(128, 128, 128);
   background-color: rgb(128, 128, 200);
   background-color: rgb(128, 200, 128);
   background-color: rgb(0, 128, 128);
   background-color: rgb(160, 160, 160);
   background-color: rgb(128, 128, 0);
+  background-color: rgba(255, 0, 0, .3); */
+}
 
-  background-color: rgba(255, 0, 0, .3);
+/* Notacion hexadecimal 
+
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+*/
+
+body {
+  background-color: #ff0000;
+  background-color: #0F08;
+  /* background-color: rgb(0, 0, 255); */
+  /* background-color: #00FFFF; */
+  /* background-color: rgb(255, 255, 0); */
+  /* background-color: rgb(255, 0, 255); */
+  /* background-color: rgb(0, 0, 0); */
+  /* background-color: rgb(255, 255, 255); */
+  /* background-color: #707070; */
+  /* background-color: rgb(128, 128, 200); */
+  /* background-color: rgb(128, 200, 128); */
+  /* background-color: rgb(0, 128, 128); */
+  /* background-color: rgb(160, 160, 160); */
+  /* background-color: rgb(128, 128, 0); */
+  /* background-color: rgba(255, 0, 0, .3); */
 }
