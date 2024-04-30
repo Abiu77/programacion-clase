@@ -121,3 +121,37 @@ body {
   background-image: linear-gradient(to bottom right, yellow, red);
   /* background-repeat: no-repeat; */
 }
+
+/* 
+  Degradados rediales
+
+    background-image: radial-gradient([size shape] [at x y], color1, color2, color3)
+
+    palabras clave para indicar el tamano::after
+
+      * closest-side
+      * farthest-side
+      * closest-corner
+      * farthest-corner
+*/
+
+body {
+  background-image: radial-gradient(yellow 50%, red 50%);
+  background-image: radial-gradient(at 0 100%, yellow 50%, red 50%);
+  background-image: radial-gradient(circle at 50% 50%, yellow 50%, red 50%);
+  background-image: radial-gradient(200px circle at 50% 50%, yellow 50%, red 50%);
+  background-image: radial-gradient(200px 100px ellipse at 50% 50%, yellow 50%, red 50%);
+  background-image: radial-gradient(closest-side at 50% 50%, yellow 50%, red 50%);
+  background: none;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+  margin: 50px auto;
+}
+
+.box {
+  background-image: radial-gradient(farthest-corner at 0 0, yellow 20%, red);
+}
