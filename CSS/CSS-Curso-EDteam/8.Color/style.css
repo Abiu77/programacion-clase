@@ -162,5 +162,24 @@ body {
   /* background-image: radial-gradient(yellow, red); */
   /* background-size: 20% 20%; */
   /* background-image: repeating-radial-gradient(black 0, black 10%, white 10%, white 15%); */
-  background-image: repeating-linear-gradient(black 0, black .2%, white .2%, white 4%);
+  /* background-image: repeating-linear-gradient(black 0, black .2%, white .2%, white 4%); */
+  background: #808080;
+}
+
+.ying-yang {
+  --size: 200px;
+  --size2: calc(var(--size)/2);
+
+  width: var(--size);
+  height: var(--size);
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 50px auto;
+
+  background-image:
+    radial-gradient(var(--size2) at 50% 25%, black 15%, transparent 15%),
+    radial-gradient(var(--size2) at 50% 75%, white 15%, transparent 15%),
+    radial-gradient(var(--size2) at 50% 25%, white 50%, transparent 50%),
+    radial-gradient(var(--size2) at 50% 75%, black 50%, transparent 50%),
+    linear-gradient(to right, white 50%, black 50%);
 }
