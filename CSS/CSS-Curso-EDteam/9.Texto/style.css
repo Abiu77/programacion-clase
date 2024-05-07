@@ -55,7 +55,14 @@ span {
 /* font-family */
 
 
-
 p {
+    color: #fff;
     font-family: 'Open Sans';
+    background: hsl(200, 10%, 30%);
+    text-shadow: 1px 1px 0px #000;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
 }
