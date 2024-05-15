@@ -1,0 +1,14 @@
+body {
+  font-size: 3rem;
+}
+
+.flex-container {
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+}
+
+.flex-item {
+  border: 1px solid #000;
+  margin: 1rem;
+}
