@@ -5,10 +5,15 @@ body {
 .flex-container {
   display: flex;
   background-color: yellow;
-  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  /* flex-direction: column; */
 }
 
 .flex-item {
   border: 1px solid #000;
   margin: 1rem;
+  padding: .5em 1em;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
 }
