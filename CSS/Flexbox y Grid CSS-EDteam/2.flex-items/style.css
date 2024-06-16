@@ -2,18 +2,18 @@
   display: flex;
   font-size: 1.5em;
   background: yellow;
-  /* flex-direction: column; */
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .item {
   background: pink;
-  flex: 1;
-  /* flex-grow: 1;
-  flex-basis: 0; */
+  height: 100px;
 }
 
 .item:nth-child(3) {
-  flex-shrink: 5;
+  align-self: flex-start;
 }
 
 .item:nth-child(even) {
