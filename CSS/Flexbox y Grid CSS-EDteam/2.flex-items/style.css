@@ -7,8 +7,9 @@
 
 .item {
   background: pink;
-  flex-grow: 1;
-  flex-basis: 0;
+  flex: 1;
+  /* flex-grow: 1;
+  flex-basis: 0; */
 }
 
 .item:nth-child(3) {
