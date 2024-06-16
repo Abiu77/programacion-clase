@@ -3,35 +3,25 @@
   font-size: 1.5em;
   background: yellow;
   height: 300px;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 .item {
   background: pink;
   height: 100px;
-}
-
-.item:nth-child(3) {
-  align-self: flex-start;
+  width: 100px;
+  margin: 20px;
 }
 
 .item:nth-child(even) {
   background: cyan;
 }
 
-.page {
-  display: flex;
-  height: 100vh;
-  background-color: yellow;
+.disccount {
+  border: 2px solid red;
+  order: -1;
 }
 
-.aside {
-  width: 200px;
-  background-color: red;
-}
-
-.main {
-  background-color: green;
-  flex-grow: 1;
-}
+/* .item:nth-child(3) {
+  order: -1;
+} */
