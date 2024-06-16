@@ -1,21 +1,14 @@
 .container {
   display: flex;
-  font-size: 3em;
+  font-size: 1.5em;
   background: yellow;
+  /* flex-direction: column; */
 }
 
 .item {
   background: pink;
-  /* 
-  flex grow indica el factor de crecimiento 
-
-  El navegador divide el espacio el espacio disponible entre
-  la cantidad total de factores de crecimiento y se los asigna a los items
-  
-  */
-  /* flex-grow: 2; */
-  width: 300px;
-  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .item:nth-child(3) {
