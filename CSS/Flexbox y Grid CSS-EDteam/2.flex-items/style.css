@@ -1,25 +1,41 @@
 .container {
   display: flex;
-  height: 200px;
-  /* background-color: yellow; */
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5em;
+  font-size: 3em;
+  background: yellow;
 }
 
-.container::before,
-.container::after {
-  content: "";
-  display: block;
-  height: 5px;
-  /* width: 200px; */
-  flex: 1;
-  background: linear-gradient(to right, red, yellow);
-  margin-right: .5em;
+.item {
+  background: pink;
+  /* 
+  flex grow indica el factor de crecimiento 
+
+  El navegador divide el espacio el espacio disponible entre
+  la cantidad total de factores de crecimiento y se los asigna a los items
+  
+  */
+  flex-grow: 2;
 }
 
-.container::after {
-  background: linear-gradient(to left, red, yellow);
-  margin-right: 0;
-  margin-left: .5em;
+.item:nth-child(3) {
+  flex-grow: 1;
+}
+
+.item:nth-child(even) {
+  background: cyan;
+}
+
+.page {
+  display: flex;
+  height: 100vh;
+  background-color: yellow;
+}
+
+.aside {
+  width: 200px;
+  background-color: red;
+}
+
+.main {
+  background-color: green;
+  flex-grow: 1;
 }
