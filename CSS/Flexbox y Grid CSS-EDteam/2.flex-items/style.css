@@ -13,11 +13,13 @@
   la cantidad total de factores de crecimiento y se los asigna a los items
   
   */
-  flex-grow: 2;
+  /* flex-grow: 2; */
+  width: 300px;
+  flex-shrink: 1;
 }
 
 .item:nth-child(3) {
-  flex-grow: 1;
+  flex-shrink: 5;
 }
 
 .item:nth-child(even) {
